@@ -1,18 +1,10 @@
 # GeoLaw
 
-A geopolitical dashboard that runs on your own PC: a globe with every country coloured by risk level, foreign news from Italian outlets as it comes out, and a few tools to see where tension is rising.
+A geopolitical dashboard that runs on your own PC: a globe with every country coloured by risk level, foreign news from Italian outlets as it comes out, and a few tools to see where tension is rising. The interface and the news are in Italian.
 
 *[Leggi in italiano](#in-italiano)*
 
 ![The conflict map](docs/geolaw.png)
-
-## Why I made it
-
-I kept seeing a dashboard like this on TikTok: in English, built on American sources, behind a subscription. I wanted my own, one that reads ANSA and Rai News instead of CNN and asks for neither an account nor a card. This is what came out.
-
-It is not a professional tool and does not pretend to be. It is a tidy way to look at the news.
-
-One thing to know up front: **the interface and the news are in Italian**, because that was the whole point. The code and the data files are easy to repoint at feeds in another language, see below.
 
 ## What it does
 
@@ -105,8 +97,6 @@ MIT. Made by Lorenzo Paoletta.
 ## In italiano
 
 GeoLaw è un cruscotto geopolitico che gira sul tuo PC: un globo con i paesi colorati per livello di rischio, le notizie estere delle testate italiane man mano che escono, e qualche strumento per capire dove sta salendo la tensione.
-
-**Perché l'ho fatto.** Vedevo girare su TikTok un cruscotto di questo tipo: in inglese, con fonti americane, in abbonamento. Ne volevo uno mio, che leggesse ANSA e Rai News invece della CNN e che non mi chiedesse né un account né una carta. Non è uno strumento professionale e non vuole sembrarlo: è un modo ordinato di guardare le notizie.
 
 **Cosa fa.** Nella mappa ogni paese è rosso, arancione o verde in base a un indice di instabilità; a sinistra le allerte, a destra le ultime notizie, sopra i titoli di borsa che reagiscono alle crisi. Cliccando un paese si apre la sua scheda con indice, andamento delle notizie nell'ultimo mese, quadro della situazione e temi. Il rapporto del giorno mette in fila i fronti più caldi delle ultime 24 ore. Poi ci sono il flusso notizie, gli stretti e le rotte con le navi in diretta, e gli strati con aerei militari, terremoti ed eventi naturali.
 
