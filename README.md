@@ -1,101 +1,127 @@
 # GeoLaw
 
-Un cruscotto geopolitico in italiano che gira sul tuo PC: un globo con i paesi colorati per livello di rischio, le notizie estere delle testate italiane man mano che escono, e qualche strumento per capire dove sta salendo la tensione.
+A geopolitical dashboard that runs on your own PC: a globe with every country coloured by risk level, foreign news from Italian outlets as it comes out, and a few tools to see where tension is rising.
 
-![La mappa dei conflitti](docs/geolaw.png)
+*[Leggi in italiano](#in-italiano)*
 
-## Perché l'ho fatto
+![The conflict map](docs/geolaw.png)
 
-Ho visto girare su TikTok un cruscotto di questo tipo: in inglese, con fonti americane, in abbonamento. Ne volevo uno mio, in italiano, che leggesse ANSA e Rai News invece della CNN e che non mi chiedesse né un account né una carta. Questo è il risultato.
+## Why I made it
 
-Non è uno strumento professionale e non vuole sembrarlo: è un modo ordinato di guardare le notizie.
+I kept seeing a dashboard like this on TikTok: in English, built on American sources, behind a subscription. I wanted my own, one that reads ANSA and Rai News instead of CNN and asks for neither an account nor a card. This is what came out.
 
-## Cosa fa
+It is not a professional tool and does not pretend to be. It is a tidy way to look at the news.
 
-Nella **mappa** ogni paese ha un colore (rosso, arancione, verde) che dipende da un indice di instabilità. A sinistra ci sono le allerte, a destra le ultime notizie, sopra scorrono i titoli di borsa che reagiscono alle crisi: difesa, petrolio, gas, oro, grano.
+One thing to know up front: **the interface and the news are in Italian**, because that was the whole point. The code and the data files are easy to repoint at feeds in another language, see below.
 
-Cliccando un paese, o cercandolo, si apre la sua scheda: indice, andamento delle notizie nell'ultimo mese, un quadro della situazione, i temi di cui si parla e i paesi che compaiono più spesso insieme a lui.
+## What it does
 
-![Scheda paese](docs/scheda-paese.png)
+On the **map**, each country is red, amber or green depending on an instability index. Alerts on the left, latest news on the right, and on top a ticker with the markets that react to crises: defence stocks, oil, gas, gold, wheat.
 
-Il **rapporto del giorno** mette in fila i fronti più caldi delle ultime 24 ore, gli indici che si sono mossi da ieri e i mercati.
+Click a country, or search for it, and its card opens: index, news volume over the last month, a short brief, the topics being discussed and the countries that show up most often next to it.
 
-![Rapporto del giorno](docs/rapporto.png)
+![Country card](docs/scheda-paese.png)
 
-Poi ci sono il **flusso notizie** completo, gli **stretti e le rotte** (Hormuz, Suez, Bab el-Mandeb, Malacca e gli altri, con la mappa delle navi in diretta) e tre strati da accendere sul globo: aerei militari dal vivo, terremoti ed eventi naturali, stretti.
+The **daily report** lines up the hottest fronts of the last 24 hours, the indices that moved since yesterday, and the markets.
 
-## Come si avvia
+![Daily report](docs/rapporto.png)
 
-Serve solo Python 3. Io uso la 3.11 su Windows 11; su Mac e Linux dovrebbe andare, ma non l'ho provato. Non c'è niente da installare con pip: il motore usa solo la libreria standard.
+There is also the full **news flow**, the **straits and routes** view (Hormuz, Suez, Bab el-Mandeb, Malacca and the others, with a live ship map) and three layers you can switch on over the globe: live military aircraft, earthquakes and natural events, straits.
+
+## Running it
+
+You only need Python 3. I use 3.11 on Windows 11; it should work on Mac and Linux but I have not tried. Nothing to `pip install`: the engine uses the standard library only.
 
 ```
 python server.py --apri
 ```
 
-Su Windows basta il doppio clic su `Avvia Radar.bat`. Per spegnerlo c'è `Spegni Radar.bat`: chiudere la scheda del browser non lo ferma, resta acceso a raccogliere notizie.
+(`--apri` means "open": it launches the browser for you.) On Windows you can double-click `Avvia Radar.bat`. To stop it use `Spegni Radar.bat`: closing the browser tab does not stop it, it keeps collecting news in the background.
 
-Il server ascolta solo su `127.0.0.1`. Prova la porta 4747 e, se è occupata, passa a 5757, 6767 e così via. Non è pignoleria: su Windows capita che blocchi interi di porte risultino riservati dal sistema senza un motivo visibile, e una porta fissa ogni tanto non partiva.
+The server listens on `127.0.0.1` only. It tries port 4747 and, if that is taken, moves on to 5757, 6767 and so on. That is not fussiness: on Windows whole blocks of ports sometimes turn out to be reserved by the system for no visible reason, and with a fixed port it would randomly fail to start.
 
-## Come nasce l'indice
+## How the index works
 
-`indice = rischio di fondo + spinta delle notizie`, con tetto a 100.
+`index = baseline risk + news push`, capped at 100.
 
-Il rischio di fondo è un numero che ho scritto io paese per paese in `dati/conoscenza.json`. È una stima, ed è discutibile: se non sei d'accordo lo cambi con il Blocco note.
+The baseline is a number I wrote by hand, country by country, in `dati/conoscenza.json`. It is an estimate and you can argue with it: if you disagree, change it in a text editor.
 
-La spinta delle notizie arriva fino a +22 e dipende da quante notizie delle ultime 72 ore parlano di quel paese e di che tipo sono. Un attacco pesa 3, un'escalation 2, una notizia militare 1,4, la diplomazia 0,5. Una notizia di un'ora fa conta più di una di due giorni fa.
+The news push goes up to +22 and depends on how many headlines from the last 72 hours mention the country and what they are about. An attack weighs 3, an escalation 2, military news 1.4, diplomacy 0.5. A headline from an hour ago counts more than one from two days ago.
 
-Rosso da 60 in su, arancione da 38 a 59, verde sotto.
+Red from 60 up, amber from 38 to 59, green below.
 
-## Cambiarlo senza toccare il codice
+## Changing it without touching the code
 
-Tutto quello che è conoscenza e non programma sta in `dati/conoscenza.json`: paesi, luoghi, stretti, testate, titoli di borsa.
+Everything that is knowledge rather than program lives in `dati/conoscenza.json`: countries, places, straits, outlets, market symbols.
 
-Aggiungere una testata è una riga:
+Adding an outlet is one line:
 
 ```json
 {"nome": "ANSA", "url": "https://www.ansa.it/sito/notizie/mondo/mondo_rss.xml"}
 ```
 
-I paesi e i luoghi si riconoscono nei titoli con espressioni regolari. Un `=` davanti rende la ricerca sensibile alle maiuscole, che serve per le parole ambigue:
+Countries and places are spotted in headlines with regular expressions. A leading `=` makes the match case-sensitive, which helps with ambiguous words:
 
 ```json
 {"nome": "Gaza", "re": "gaza|=Striscia|rafah|khan yun[ie]s", "lat": 31.45, "lon": 34.4, "iso": "PSE"}
 ```
 
-I falsi allarmi si tolgono in `server.py`: `RE_RUMORE` è l'elenco delle parole che fanno scartare un titolo (calcio, meteo, famiglia reale, oroscopo...) e `CATEGORIE` decide cosa è un attacco e cosa è diplomazia.
+False alarms are handled in `server.py`: `RE_RUMORE` is the list of words that get a headline thrown away (football, weather, royal family, horoscope...) and `CATEGORIE` decides what counts as an attack and what counts as diplomacy. To use it in another language you would swap the feeds, the country aliases and those two lists.
 
-## Limiti che conosco
+## Limits I know about
 
-- Le notizie sono classificate per parole chiave, quindi ogni tanto sbaglia. "Attacco" nel titolo di una partita viene quasi sempre filtrato, quasi.
-- I dati di borsa arrivano da un indirizzo di Yahoo Finance che non è un servizio ufficiale: può smettere di funzionare da un giorno all'altro.
-- Gli aerei militari sono quelli con il transponder acceso. Quelli interessanti spesso lo tengono spento.
-- La mappa delle navi e la diretta TV sono incorporate da MarineTraffic e YouTube: se cambiano le loro regole, spariscono. Sky TG24 non si lascia incorporare, per quello la diretta è Euronews.
-- Il feed di Analisi Difesa ha il certificato scaduto. Solo per quel feed il motore accetta la connessione non verificata (è un RSS pubblico, in sola lettura).
-- L'archivio tiene 30 giorni.
-- È pensato per girare in locale. Non metterlo su un server esposto a internet così com'è.
+- Headlines are classified by keywords, so it gets things wrong now and then. "Attack" in a football headline is filtered out almost every time. Almost.
+- Market data comes from a Yahoo Finance address that is not an official service. It can stop working overnight.
+- Military aircraft are the ones flying with their transponder on. The interesting ones often fly with it off.
+- The ship map and the live TV are embeds from MarineTraffic and YouTube: if they change their rules, those panels go away. Sky TG24 refuses to be embedded, which is why the live stream is Euronews.
+- The Analisi Difesa feed has an expired certificate. For that feed only, the engine accepts the unverified connection (it is a public RSS, read-only).
+- The archive keeps 30 days.
+- It is meant to run locally. Do not put it on an internet-facing server as it is.
 
-## Strade provate e scartate
+## Dead ends
 
-Le segno perché mi hanno fatto perdere tempo e magari lo risparmio a qualcuno.
+Writing these down because they cost me time and might save someone else's.
 
-- **GDELT**: l'API GEO risponde 404, la DOC accetta una richiesta ogni cinque secondi e spesso torna vuota.
-- **restcountries**: dismesso. L'elenco dei paesi viene da [mledoze/countries](https://github.com/mledoze/countries).
-- **Stooq** per i mercati: 404.
+- **GDELT**: the GEO API answers 404, the DOC API allows one request every five seconds and often comes back empty.
+- **restcountries**: shut down. The country list comes from [mledoze/countries](https://github.com/mledoze/countries).
+- **Stooq** for market data: 404.
 
-## Cose che vorrei aggiungere
+## Things I would like to add
 
-Un riassunto del giorno scritto meglio di un elenco, uno storico più lungo di 30 giorni, e qualcosa sulle previsioni (Polymarket è l'unica fonte decente ma è tutta in inglese).
+A daily summary that reads better than a list, a history longer than 30 days, and something about forecasts (Polymarket is the only decent source).
+
+If you try it and something breaks, open an issue and I will have a look.
+
+## Data and credits
+
+News from the RSS feeds of ANSA, Rai News, Sky TG24, la Repubblica, AGI, Il Post, Euronews, Analisi Difesa, Internazionale: only the title, the feed's short summary and the link are stored, the article is read on the outlet's site. Markets: Yahoo Finance. Aircraft: [adsb.lol](https://adsb.lol). Earthquakes and natural events: USGS and NASA EONET. Ships: MarineTraffic. Globe: [globe.gl](https://globe.gl), borders from [world-atlas](https://github.com/topojson/world-atlas), flags from flagcdn.com. Country list from mledoze/countries (ODbL).
+
+## License
+
+MIT. Made by Lorenzo Paoletta.
+
+---
+
+## In italiano
+
+GeoLaw è un cruscotto geopolitico che gira sul tuo PC: un globo con i paesi colorati per livello di rischio, le notizie estere delle testate italiane man mano che escono, e qualche strumento per capire dove sta salendo la tensione.
+
+**Perché l'ho fatto.** Vedevo girare su TikTok un cruscotto di questo tipo: in inglese, con fonti americane, in abbonamento. Ne volevo uno mio, che leggesse ANSA e Rai News invece della CNN e che non mi chiedesse né un account né una carta. Non è uno strumento professionale e non vuole sembrarlo: è un modo ordinato di guardare le notizie.
+
+**Cosa fa.** Nella mappa ogni paese è rosso, arancione o verde in base a un indice di instabilità; a sinistra le allerte, a destra le ultime notizie, sopra i titoli di borsa che reagiscono alle crisi. Cliccando un paese si apre la sua scheda con indice, andamento delle notizie nell'ultimo mese, quadro della situazione e temi. Il rapporto del giorno mette in fila i fronti più caldi delle ultime 24 ore. Poi ci sono il flusso notizie, gli stretti e le rotte con le navi in diretta, e gli strati con aerei militari, terremoti ed eventi naturali.
+
+**Come si avvia.** Serve solo Python 3, senza niente da installare con pip:
+
+```
+python server.py --apri
+```
+
+Su Windows basta il doppio clic su `Avvia Radar.bat`; per spegnerlo c'è `Spegni Radar.bat` (chiudere la scheda del browser non lo ferma). Ascolta solo su `127.0.0.1` e prova le porte 4747, 5757, 6767... perché su Windows capita che blocchi di porte risultino riservati senza motivo.
+
+**L'indice.** `indice = rischio di fondo + spinta delle notizie`, massimo 100. Il rischio di fondo l'ho scritto io paese per paese in `dati/conoscenza.json`, è una stima e si può cambiare con il Blocco note. La spinta (fino a +22) dipende da quante notizie delle ultime 72 ore parlano del paese e di che tipo sono: un attacco pesa 3, la diplomazia 0,5. Rosso da 60, arancione da 38 a 59, verde sotto.
+
+**Cambiarlo.** Paesi, luoghi, stretti, testate e titoli di borsa stanno tutti in `dati/conoscenza.json`. I falsi allarmi si tolgono in `server.py` con `RE_RUMORE` e `CATEGORIE`.
+
+**Limiti.** Classifica per parole chiave e ogni tanto sbaglia; i dati di borsa vengono da un indirizzo non ufficiale di Yahoo; gli aerei sono solo quelli con il transponder acceso; mappa navi e diretta TV dipendono da MarineTraffic e YouTube; l'archivio tiene 30 giorni; è pensato per girare in locale, non su un server esposto.
 
 Se lo provi e qualcosa non funziona, apri una issue: la guardo.
-
-## Dati e crediti
-
-Notizie dai feed RSS di ANSA, Rai News, Sky TG24, la Repubblica, AGI, Il Post, Euronews, Analisi Difesa, Internazionale: si salvano titolo, il sommario breve del feed e il link; l'articolo si legge sul sito della testata. Mercati: Yahoo Finance. Aerei: [adsb.lol](https://adsb.lol). Terremoti ed eventi naturali: USGS e NASA EONET. Navi: MarineTraffic. Globo: [globe.gl](https://globe.gl), confini da [world-atlas](https://github.com/topojson/world-atlas), bandiere da flagcdn.com. Elenco paesi da mledoze/countries (licenza ODbL).
-
-## In English
-
-GeoLaw is a geopolitical dashboard that runs locally and speaks Italian: a 3D globe coloured by an instability index, live foreign news from Italian outlets, country briefs, maritime chokepoints, live military aircraft and the markets that react to crises. Standard-library Python, no accounts, no API keys. Run `python server.py --apri`. The interface and the news sources are Italian only.
-
-## Licenza
-
-MIT. Fatto da Lorenzo Paoletta.
