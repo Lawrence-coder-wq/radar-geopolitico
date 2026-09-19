@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """GeoLaw (Radar Geopolitico) - motore locale.
-(c) 2026 Lorenzo Paoletta. Tutti i diritti riservati (codice privato).
+(c) 2026 Lorenzo Paoletta, licenza MIT.
 
 Raccoglie notizie estere da testate italiane, le associa a paesi e luoghi,
 calcola un indice di instabilita' e serve il cruscotto su http://localhost:4747
