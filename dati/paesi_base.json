@@ -1,0 +1,2002 @@
+{
+"ABW": {
+"n": "533",
+"a2": "AW",
+"nome": "Aruba",
+"lat": 12.5,
+"lon": -69.96666666,
+"reg": "Americas"
+},
+"AFG": {
+"n": "004",
+"a2": "AF",
+"nome": "Afghanistan",
+"lat": 33,
+"lon": 65,
+"reg": "Asia"
+},
+"AGO": {
+"n": "024",
+"a2": "AO",
+"nome": "Angola",
+"lat": -12.5,
+"lon": 18.5,
+"reg": "Africa"
+},
+"AIA": {
+"n": "660",
+"a2": "AI",
+"nome": "Anguilla",
+"lat": 18.25,
+"lon": -63.16666666,
+"reg": "Americas"
+},
+"ALA": {
+"n": "248",
+"a2": "AX",
+"nome": "Isole Aland",
+"lat": 60.116667,
+"lon": 19.9,
+"reg": "Europe"
+},
+"ALB": {
+"n": "008",
+"a2": "AL",
+"nome": "Albania",
+"lat": 41,
+"lon": 20,
+"reg": "Europe"
+},
+"AND": {
+"n": "020",
+"a2": "AD",
+"nome": "Andorra",
+"lat": 42.5,
+"lon": 1.5,
+"reg": "Europe"
+},
+"ARE": {
+"n": "784",
+"a2": "AE",
+"nome": "Emirati Arabi Uniti",
+"lat": 24,
+"lon": 54,
+"reg": "Asia"
+},
+"ARG": {
+"n": "032",
+"a2": "AR",
+"nome": "Argentina",
+"lat": -34,
+"lon": -64,
+"reg": "Americas"
+},
+"ARM": {
+"n": "051",
+"a2": "AM",
+"nome": "Armenia",
+"lat": 40,
+"lon": 45,
+"reg": "Asia"
+},
+"ASM": {
+"n": "016",
+"a2": "AS",
+"nome": "Samoa Americane",
+"lat": -14.33333333,
+"lon": -170,
+"reg": "Oceania"
+},
+"ATA": {
+"n": "010",
+"a2": "AQ",
+"nome": "Antartide",
+"lat": -90,
+"lon": 0,
+"reg": "Antarctic"
+},
+"ATF": {
+"n": "260",
+"a2": "TF",
+"nome": "Territori Francesi del Sud",
+"lat": -49.25,
+"lon": 69.167,
+"reg": "Antarctic"
+},
+"ATG": {
+"n": "028",
+"a2": "AG",
+"nome": "Antigua e Barbuda",
+"lat": 17.05,
+"lon": -61.8,
+"reg": "Americas"
+},
+"AUS": {
+"n": "036",
+"a2": "AU",
+"nome": "Australia",
+"lat": -27,
+"lon": 133,
+"reg": "Oceania"
+},
+"AUT": {
+"n": "040",
+"a2": "AT",
+"nome": "Austria",
+"lat": 47.33333333,
+"lon": 13.33333333,
+"reg": "Europe"
+},
+"AZE": {
+"n": "031",
+"a2": "AZ",
+"nome": "Azerbaijan",
+"lat": 40.5,
+"lon": 47.5,
+"reg": "Asia"
+},
+"BDI": {
+"n": "108",
+"a2": "BI",
+"nome": "Burundi",
+"lat": -3.5,
+"lon": 30,
+"reg": "Africa"
+},
+"BEL": {
+"n": "056",
+"a2": "BE",
+"nome": "Belgio",
+"lat": 50.83333333,
+"lon": 4,
+"reg": "Europe"
+},
+"BEN": {
+"n": "204",
+"a2": "BJ",
+"nome": "Benin",
+"lat": 9.5,
+"lon": 2.25,
+"reg": "Africa"
+},
+"BFA": {
+"n": "854",
+"a2": "BF",
+"nome": "Burkina Faso",
+"lat": 13,
+"lon": -2,
+"reg": "Africa"
+},
+"BGD": {
+"n": "050",
+"a2": "BD",
+"nome": "Bangladesh",
+"lat": 24,
+"lon": 90,
+"reg": "Asia"
+},
+"BGR": {
+"n": "100",
+"a2": "BG",
+"nome": "Bulgaria",
+"lat": 43,
+"lon": 25,
+"reg": "Europe"
+},
+"BHR": {
+"n": "048",
+"a2": "BH",
+"nome": "Bahrein",
+"lat": 26,
+"lon": 50.55,
+"reg": "Asia"
+},
+"BHS": {
+"n": "044",
+"a2": "BS",
+"nome": "Bahamas",
+"lat": 24.25,
+"lon": -76,
+"reg": "Americas"
+},
+"BIH": {
+"n": "070",
+"a2": "BA",
+"nome": "Bosnia ed Erzegovina",
+"lat": 44,
+"lon": 18,
+"reg": "Europe"
+},
+"BLM": {
+"n": "652",
+"a2": "BL",
+"nome": "Antille Francesi",
+"lat": 18.5,
+"lon": -63.41666666,
+"reg": "Americas"
+},
+"SHN": {
+"n": "654",
+"a2": "SH",
+"nome": "Sant'Elena, Ascensione e Tristan da Cunha",
+"lat": -15.95,
+"lon": -5.72,
+"reg": "Africa"
+},
+"BLR": {
+"n": "112",
+"a2": "BY",
+"nome": "Bielorussia",
+"lat": 53,
+"lon": 28,
+"reg": "Europe"
+},
+"BLZ": {
+"n": "084",
+"a2": "BZ",
+"nome": "Belize",
+"lat": 17.25,
+"lon": -88.75,
+"reg": "Americas"
+},
+"BMU": {
+"n": "060",
+"a2": "BM",
+"nome": "Bermuda",
+"lat": 32.33333333,
+"lon": -64.75,
+"reg": "Americas"
+},
+"BOL": {
+"n": "068",
+"a2": "BO",
+"nome": "Bolivia",
+"lat": -17,
+"lon": -65,
+"reg": "Americas"
+},
+"BES": {
+"n": "535",
+"a2": "BQ",
+"nome": "Paesi Bassi caraibici",
+"lat": 12.18,
+"lon": -68.25,
+"reg": "Americas"
+},
+"BRA": {
+"n": "076",
+"a2": "BR",
+"nome": "Brasile",
+"lat": -10,
+"lon": -55,
+"reg": "Americas"
+},
+"BRB": {
+"n": "052",
+"a2": "BB",
+"nome": "Barbados",
+"lat": 13.16666666,
+"lon": -59.53333333,
+"reg": "Americas"
+},
+"BRN": {
+"n": "096",
+"a2": "BN",
+"nome": "Brunei",
+"lat": 4.5,
+"lon": 114.66666666,
+"reg": "Asia"
+},
+"BTN": {
+"n": "064",
+"a2": "BT",
+"nome": "Bhutan",
+"lat": 27.5,
+"lon": 90.5,
+"reg": "Asia"
+},
+"BVT": {
+"n": "074",
+"a2": "BV",
+"nome": "Isola Bouvet",
+"lat": -54.43333333,
+"lon": 3.4,
+"reg": "Antarctic"
+},
+"BWA": {
+"n": "072",
+"a2": "BW",
+"nome": "Botswana",
+"lat": -22,
+"lon": 24,
+"reg": "Africa"
+},
+"CAF": {
+"n": "140",
+"a2": "CF",
+"nome": "Repubblica Centrafricana",
+"lat": 7,
+"lon": 21,
+"reg": "Africa"
+},
+"CAN": {
+"n": "124",
+"a2": "CA",
+"nome": "Canada",
+"lat": 60,
+"lon": -95,
+"reg": "Americas"
+},
+"CCK": {
+"n": "166",
+"a2": "CC",
+"nome": "Isole Cocos e Keeling",
+"lat": -12.5,
+"lon": 96.83333333,
+"reg": "Oceania"
+},
+"CHE": {
+"n": "756",
+"a2": "CH",
+"nome": "Svizzera",
+"lat": 47,
+"lon": 8,
+"reg": "Europe"
+},
+"CHL": {
+"n": "152",
+"a2": "CL",
+"nome": "Cile",
+"lat": -30,
+"lon": -71,
+"reg": "Americas"
+},
+"CHN": {
+"n": "156",
+"a2": "CN",
+"nome": "Cina",
+"lat": 35,
+"lon": 105,
+"reg": "Asia"
+},
+"CIV": {
+"n": "384",
+"a2": "CI",
+"nome": "Costa d'Avorio",
+"lat": 8,
+"lon": -5,
+"reg": "Africa"
+},
+"CMR": {
+"n": "120",
+"a2": "CM",
+"nome": "Camerun",
+"lat": 6,
+"lon": 12,
+"reg": "Africa"
+},
+"COD": {
+"n": "180",
+"a2": "CD",
+"nome": "Rep. Dem. del Congo",
+"lat": 0,
+"lon": 25,
+"reg": "Africa"
+},
+"COG": {
+"n": "178",
+"a2": "CG",
+"nome": "Congo-Brazzaville",
+"lat": -1,
+"lon": 15,
+"reg": "Africa"
+},
+"COK": {
+"n": "184",
+"a2": "CK",
+"nome": "Isole Cook",
+"lat": -21.23333333,
+"lon": -159.76666666,
+"reg": "Oceania"
+},
+"COL": {
+"n": "170",
+"a2": "CO",
+"nome": "Colombia",
+"lat": 4,
+"lon": -72,
+"reg": "Americas"
+},
+"COM": {
+"n": "174",
+"a2": "KM",
+"nome": "Comore",
+"lat": -12.16666666,
+"lon": 44.25,
+"reg": "Africa"
+},
+"CPV": {
+"n": "132",
+"a2": "CV",
+"nome": "Capo Verde",
+"lat": 16,
+"lon": -24,
+"reg": "Africa"
+},
+"CRI": {
+"n": "188",
+"a2": "CR",
+"nome": "Costa Rica",
+"lat": 10,
+"lon": -84,
+"reg": "Americas"
+},
+"CUB": {
+"n": "192",
+"a2": "CU",
+"nome": "Cuba",
+"lat": 21.5,
+"lon": -80,
+"reg": "Americas"
+},
+"CUW": {
+"n": "531",
+"a2": "CW",
+"nome": "Curaçao",
+"lat": 12.116667,
+"lon": -68.933333,
+"reg": "Americas"
+},
+"CXR": {
+"n": "162",
+"a2": "CX",
+"nome": "Isola di Natale",
+"lat": -10.5,
+"lon": 105.66666666,
+"reg": "Oceania"
+},
+"CYM": {
+"n": "136",
+"a2": "KY",
+"nome": "Isole Cayman",
+"lat": 19.5,
+"lon": -80.5,
+"reg": "Americas"
+},
+"CYP": {
+"n": "196",
+"a2": "CY",
+"nome": "Cipro",
+"lat": 35,
+"lon": 33,
+"reg": "Europe"
+},
+"CZE": {
+"n": "203",
+"a2": "CZ",
+"nome": "Cechia",
+"lat": 49.75,
+"lon": 15.5,
+"reg": "Europe"
+},
+"DEU": {
+"n": "276",
+"a2": "DE",
+"nome": "Germania",
+"lat": 51,
+"lon": 9,
+"reg": "Europe"
+},
+"DJI": {
+"n": "262",
+"a2": "DJ",
+"nome": "Gibuti",
+"lat": 11.5,
+"lon": 43,
+"reg": "Africa"
+},
+"DMA": {
+"n": "212",
+"a2": "DM",
+"nome": "Dominica",
+"lat": 15.41666666,
+"lon": -61.33333333,
+"reg": "Americas"
+},
+"DNK": {
+"n": "208",
+"a2": "DK",
+"nome": "Danimarca",
+"lat": 56,
+"lon": 10,
+"reg": "Europe"
+},
+"DOM": {
+"n": "214",
+"a2": "DO",
+"nome": "Repubblica Dominicana",
+"lat": 19,
+"lon": -70.66666666,
+"reg": "Americas"
+},
+"DZA": {
+"n": "012",
+"a2": "DZ",
+"nome": "Algeria",
+"lat": 28,
+"lon": 3,
+"reg": "Africa"
+},
+"ECU": {
+"n": "218",
+"a2": "EC",
+"nome": "Ecuador",
+"lat": -2,
+"lon": -77.5,
+"reg": "Americas"
+},
+"EGY": {
+"n": "818",
+"a2": "EG",
+"nome": "Egitto",
+"lat": 27,
+"lon": 30,
+"reg": "Africa"
+},
+"ERI": {
+"n": "232",
+"a2": "ER",
+"nome": "Eritrea",
+"lat": 15,
+"lon": 39,
+"reg": "Africa"
+},
+"ESH": {
+"n": "732",
+"a2": "EH",
+"nome": "Sahara Occidentale",
+"lat": 24.5,
+"lon": -13,
+"reg": "Africa"
+},
+"ESP": {
+"n": "724",
+"a2": "ES",
+"nome": "Spagna",
+"lat": 40,
+"lon": -4,
+"reg": "Europe"
+},
+"EST": {
+"n": "233",
+"a2": "EE",
+"nome": "Estonia",
+"lat": 59,
+"lon": 26,
+"reg": "Europe"
+},
+"ETH": {
+"n": "231",
+"a2": "ET",
+"nome": "Etiopia",
+"lat": 8,
+"lon": 38,
+"reg": "Africa"
+},
+"FIN": {
+"n": "246",
+"a2": "FI",
+"nome": "Finlandia",
+"lat": 64,
+"lon": 26,
+"reg": "Europe"
+},
+"FJI": {
+"n": "242",
+"a2": "FJ",
+"nome": "Figi",
+"lat": -18,
+"lon": 175,
+"reg": "Oceania"
+},
+"FLK": {
+"n": "238",
+"a2": "FK",
+"nome": "Isole Falkland o Isole Malvine",
+"lat": -51.75,
+"lon": -59,
+"reg": "Americas"
+},
+"FRA": {
+"n": "250",
+"a2": "FR",
+"nome": "Francia",
+"lat": 46,
+"lon": 2,
+"reg": "Europe"
+},
+"FRO": {
+"n": "234",
+"a2": "FO",
+"nome": "Isole Far Oer",
+"lat": 62,
+"lon": -7,
+"reg": "Europe"
+},
+"FSM": {
+"n": "583",
+"a2": "FM",
+"nome": "Micronesia",
+"lat": 6.91666666,
+"lon": 158.25,
+"reg": "Oceania"
+},
+"GAB": {
+"n": "266",
+"a2": "GA",
+"nome": "Gabon",
+"lat": -1,
+"lon": 11.75,
+"reg": "Africa"
+},
+"GBR": {
+"n": "826",
+"a2": "GB",
+"nome": "Regno Unito",
+"lat": 54,
+"lon": -2,
+"reg": "Europe"
+},
+"GEO": {
+"n": "268",
+"a2": "GE",
+"nome": "Georgia",
+"lat": 42,
+"lon": 43.5,
+"reg": "Asia"
+},
+"GGY": {
+"n": "831",
+"a2": "GG",
+"nome": "Guernsey",
+"lat": 49.46666666,
+"lon": -2.58333333,
+"reg": "Europe"
+},
+"GHA": {
+"n": "288",
+"a2": "GH",
+"nome": "Ghana",
+"lat": 8,
+"lon": -2,
+"reg": "Africa"
+},
+"GIB": {
+"n": "292",
+"a2": "GI",
+"nome": "Gibilterra",
+"lat": 36.13333333,
+"lon": -5.35,
+"reg": "Europe"
+},
+"GIN": {
+"n": "324",
+"a2": "GN",
+"nome": "Guinea",
+"lat": 11,
+"lon": -10,
+"reg": "Africa"
+},
+"GLP": {
+"n": "312",
+"a2": "GP",
+"nome": "Guadeloupa",
+"lat": 16.25,
+"lon": -61.583333,
+"reg": "Americas"
+},
+"GMB": {
+"n": "270",
+"a2": "GM",
+"nome": "Gambia",
+"lat": 13.46666666,
+"lon": -16.56666666,
+"reg": "Africa"
+},
+"GNB": {
+"n": "624",
+"a2": "GW",
+"nome": "Guinea-Bissau",
+"lat": 12,
+"lon": -15,
+"reg": "Africa"
+},
+"GNQ": {
+"n": "226",
+"a2": "GQ",
+"nome": "Guinea Equatoriale",
+"lat": 2,
+"lon": 10,
+"reg": "Africa"
+},
+"GRC": {
+"n": "300",
+"a2": "GR",
+"nome": "Grecia",
+"lat": 39,
+"lon": 22,
+"reg": "Europe"
+},
+"GRD": {
+"n": "308",
+"a2": "GD",
+"nome": "Grenada",
+"lat": 12.11666666,
+"lon": -61.66666666,
+"reg": "Americas"
+},
+"GRL": {
+"n": "304",
+"a2": "GL",
+"nome": "Groenlandia",
+"lat": 72,
+"lon": -40,
+"reg": "Americas"
+},
+"GTM": {
+"n": "320",
+"a2": "GT",
+"nome": "Guatemala",
+"lat": 15.5,
+"lon": -90.25,
+"reg": "Americas"
+},
+"GUF": {
+"n": "254",
+"a2": "GF",
+"nome": "Guyana francese",
+"lat": 4,
+"lon": -53,
+"reg": "Americas"
+},
+"GUM": {
+"n": "316",
+"a2": "GU",
+"nome": "Guam",
+"lat": 13.46666666,
+"lon": 144.78333333,
+"reg": "Oceania"
+},
+"GUY": {
+"n": "328",
+"a2": "GY",
+"nome": "Guyana",
+"lat": 5,
+"lon": -59,
+"reg": "Americas"
+},
+"HKG": {
+"n": "344",
+"a2": "HK",
+"nome": "Hong Kong",
+"lat": 22.267,
+"lon": 114.188,
+"reg": "Asia"
+},
+"HMD": {
+"n": "334",
+"a2": "HM",
+"nome": "Isole Heard e McDonald",
+"lat": -53.1,
+"lon": 72.51666666,
+"reg": "Antarctic"
+},
+"HND": {
+"n": "340",
+"a2": "HN",
+"nome": "Honduras",
+"lat": 15,
+"lon": -86.5,
+"reg": "Americas"
+},
+"HRV": {
+"n": "191",
+"a2": "HR",
+"nome": "Croazia",
+"lat": 45.16666666,
+"lon": 15.5,
+"reg": "Europe"
+},
+"HTI": {
+"n": "332",
+"a2": "HT",
+"nome": "Haiti",
+"lat": 19,
+"lon": -72.41666666,
+"reg": "Americas"
+},
+"HUN": {
+"n": "348",
+"a2": "HU",
+"nome": "Ungheria",
+"lat": 47,
+"lon": 20,
+"reg": "Europe"
+},
+"IDN": {
+"n": "360",
+"a2": "ID",
+"nome": "Indonesia",
+"lat": -5,
+"lon": 120,
+"reg": "Asia"
+},
+"IMN": {
+"n": "833",
+"a2": "IM",
+"nome": "Isola di Man",
+"lat": 54.25,
+"lon": -4.5,
+"reg": "Europe"
+},
+"IND": {
+"n": "356",
+"a2": "IN",
+"nome": "India",
+"lat": 20,
+"lon": 77,
+"reg": "Asia"
+},
+"IOT": {
+"n": "086",
+"a2": "IO",
+"nome": "Territorio britannico dell'oceano indiano",
+"lat": -6,
+"lon": 71.5,
+"reg": "Africa"
+},
+"IRL": {
+"n": "372",
+"a2": "IE",
+"nome": "Irlanda",
+"lat": 53,
+"lon": -8,
+"reg": "Europe"
+},
+"IRN": {
+"n": "364",
+"a2": "IR",
+"nome": "Iran",
+"lat": 32,
+"lon": 53,
+"reg": "Asia"
+},
+"IRQ": {
+"n": "368",
+"a2": "IQ",
+"nome": "Iraq",
+"lat": 33,
+"lon": 44,
+"reg": "Asia"
+},
+"ISL": {
+"n": "352",
+"a2": "IS",
+"nome": "Islanda",
+"lat": 65,
+"lon": -18,
+"reg": "Europe"
+},
+"ISR": {
+"n": "376",
+"a2": "IL",
+"nome": "Israele",
+"lat": 31.47,
+"lon": 35.13,
+"reg": "Asia"
+},
+"ITA": {
+"n": "380",
+"a2": "IT",
+"nome": "Italia",
+"lat": 42.83333333,
+"lon": 12.83333333,
+"reg": "Europe"
+},
+"JAM": {
+"n": "388",
+"a2": "JM",
+"nome": "Giamaica",
+"lat": 18.25,
+"lon": -77.5,
+"reg": "Americas"
+},
+"JEY": {
+"n": "832",
+"a2": "JE",
+"nome": "Isola di Jersey",
+"lat": 49.25,
+"lon": -2.16666666,
+"reg": "Europe"
+},
+"JOR": {
+"n": "400",
+"a2": "JO",
+"nome": "Giordania",
+"lat": 31,
+"lon": 36,
+"reg": "Asia"
+},
+"JPN": {
+"n": "392",
+"a2": "JP",
+"nome": "Giappone",
+"lat": 36,
+"lon": 138,
+"reg": "Asia"
+},
+"KAZ": {
+"n": "398",
+"a2": "KZ",
+"nome": "Kazakistan",
+"lat": 48,
+"lon": 68,
+"reg": "Asia"
+},
+"KEN": {
+"n": "404",
+"a2": "KE",
+"nome": "Kenya",
+"lat": 1,
+"lon": 38,
+"reg": "Africa"
+},
+"KGZ": {
+"n": "417",
+"a2": "KG",
+"nome": "Kirghizistan",
+"lat": 41,
+"lon": 75,
+"reg": "Asia"
+},
+"KHM": {
+"n": "116",
+"a2": "KH",
+"nome": "Cambogia",
+"lat": 13,
+"lon": 105,
+"reg": "Asia"
+},
+"KIR": {
+"n": "296",
+"a2": "KI",
+"nome": "Kiribati",
+"lat": 1.41666666,
+"lon": 173,
+"reg": "Oceania"
+},
+"KNA": {
+"n": "659",
+"a2": "KN",
+"nome": "Saint Kitts e Nevis",
+"lat": 17.33333333,
+"lon": -62.75,
+"reg": "Americas"
+},
+"KOR": {
+"n": "410",
+"a2": "KR",
+"nome": "Corea del Sud",
+"lat": 37,
+"lon": 127.5,
+"reg": "Asia"
+},
+"UNK": {
+"n": "",
+"a2": "XK",
+"nome": "Kosovo",
+"lat": 42.666667,
+"lon": 21.166667,
+"reg": "Europe"
+},
+"KWT": {
+"n": "414",
+"a2": "KW",
+"nome": "Kuwait",
+"lat": 29.5,
+"lon": 45.75,
+"reg": "Asia"
+},
+"LAO": {
+"n": "418",
+"a2": "LA",
+"nome": "Laos",
+"lat": 18,
+"lon": 105,
+"reg": "Asia"
+},
+"LBN": {
+"n": "422",
+"a2": "LB",
+"nome": "Libano",
+"lat": 33.83333333,
+"lon": 35.83333333,
+"reg": "Asia"
+},
+"LBR": {
+"n": "430",
+"a2": "LR",
+"nome": "Liberia",
+"lat": 6.5,
+"lon": -9.5,
+"reg": "Africa"
+},
+"LBY": {
+"n": "434",
+"a2": "LY",
+"nome": "Libia",
+"lat": 25,
+"lon": 17,
+"reg": "Africa"
+},
+"LCA": {
+"n": "662",
+"a2": "LC",
+"nome": "Santa Lucia",
+"lat": 13.88333333,
+"lon": -60.96666666,
+"reg": "Americas"
+},
+"LIE": {
+"n": "438",
+"a2": "LI",
+"nome": "Liechtenstein",
+"lat": 47.26666666,
+"lon": 9.53333333,
+"reg": "Europe"
+},
+"LKA": {
+"n": "144",
+"a2": "LK",
+"nome": "Sri Lanka",
+"lat": 7,
+"lon": 81,
+"reg": "Asia"
+},
+"LSO": {
+"n": "426",
+"a2": "LS",
+"nome": "Lesotho",
+"lat": -29.5,
+"lon": 28.5,
+"reg": "Africa"
+},
+"LTU": {
+"n": "440",
+"a2": "LT",
+"nome": "Lituania",
+"lat": 56,
+"lon": 24,
+"reg": "Europe"
+},
+"LUX": {
+"n": "442",
+"a2": "LU",
+"nome": "Lussemburgo",
+"lat": 49.75,
+"lon": 6.16666666,
+"reg": "Europe"
+},
+"LVA": {
+"n": "428",
+"a2": "LV",
+"nome": "Lettonia",
+"lat": 57,
+"lon": 25,
+"reg": "Europe"
+},
+"MAC": {
+"n": "446",
+"a2": "MO",
+"nome": "Macao",
+"lat": 22.16666666,
+"lon": 113.55,
+"reg": "Asia"
+},
+"MAF": {
+"n": "663",
+"a2": "MF",
+"nome": "Saint Martin",
+"lat": 18.08333333,
+"lon": -63.95,
+"reg": "Americas"
+},
+"MAR": {
+"n": "504",
+"a2": "MA",
+"nome": "Marocco",
+"lat": 32,
+"lon": -5,
+"reg": "Africa"
+},
+"MCO": {
+"n": "492",
+"a2": "MC",
+"nome": "Principato di Monaco",
+"lat": 43.73333333,
+"lon": 7.4,
+"reg": "Europe"
+},
+"MDA": {
+"n": "498",
+"a2": "MD",
+"nome": "Moldavia",
+"lat": 47,
+"lon": 29,
+"reg": "Europe"
+},
+"MDG": {
+"n": "450",
+"a2": "MG",
+"nome": "Madagascar",
+"lat": -20,
+"lon": 47,
+"reg": "Africa"
+},
+"MDV": {
+"n": "462",
+"a2": "MV",
+"nome": "Maldive",
+"lat": 3.25,
+"lon": 73,
+"reg": "Asia"
+},
+"MEX": {
+"n": "484",
+"a2": "MX",
+"nome": "Messico",
+"lat": 23,
+"lon": -102,
+"reg": "Americas"
+},
+"MHL": {
+"n": "584",
+"a2": "MH",
+"nome": "Isole Marshall",
+"lat": 9,
+"lon": 168,
+"reg": "Oceania"
+},
+"MKD": {
+"n": "807",
+"a2": "MK",
+"nome": "Macedonia del Nord",
+"lat": 41.83333333,
+"lon": 22,
+"reg": "Europe"
+},
+"MLI": {
+"n": "466",
+"a2": "ML",
+"nome": "Mali",
+"lat": 17,
+"lon": -4,
+"reg": "Africa"
+},
+"MLT": {
+"n": "470",
+"a2": "MT",
+"nome": "Malta",
+"lat": 35.83333333,
+"lon": 14.58333333,
+"reg": "Europe"
+},
+"MMR": {
+"n": "104",
+"a2": "MM",
+"nome": "Birmania",
+"lat": 22,
+"lon": 98,
+"reg": "Asia"
+},
+"MNE": {
+"n": "499",
+"a2": "ME",
+"nome": "Montenegro",
+"lat": 42.5,
+"lon": 19.3,
+"reg": "Europe"
+},
+"MNG": {
+"n": "496",
+"a2": "MN",
+"nome": "Mongolia",
+"lat": 46,
+"lon": 105,
+"reg": "Asia"
+},
+"MNP": {
+"n": "580",
+"a2": "MP",
+"nome": "Isole Marianne Settentrionali",
+"lat": 15.2,
+"lon": 145.75,
+"reg": "Oceania"
+},
+"MOZ": {
+"n": "508",
+"a2": "MZ",
+"nome": "Mozambico",
+"lat": -18.25,
+"lon": 35,
+"reg": "Africa"
+},
+"MRT": {
+"n": "478",
+"a2": "MR",
+"nome": "Mauritania",
+"lat": 20,
+"lon": -12,
+"reg": "Africa"
+},
+"MSR": {
+"n": "500",
+"a2": "MS",
+"nome": "Montserrat",
+"lat": 16.75,
+"lon": -62.2,
+"reg": "Americas"
+},
+"MTQ": {
+"n": "474",
+"a2": "MQ",
+"nome": "Martinica",
+"lat": 14.666667,
+"lon": -61,
+"reg": "Americas"
+},
+"MUS": {
+"n": "480",
+"a2": "MU",
+"nome": "Mauritius",
+"lat": -20.28333333,
+"lon": 57.55,
+"reg": "Africa"
+},
+"MWI": {
+"n": "454",
+"a2": "MW",
+"nome": "Malawi",
+"lat": -13.5,
+"lon": 34,
+"reg": "Africa"
+},
+"MYS": {
+"n": "458",
+"a2": "MY",
+"nome": "Malesia",
+"lat": 2.5,
+"lon": 112.5,
+"reg": "Asia"
+},
+"MYT": {
+"n": "175",
+"a2": "YT",
+"nome": "Mayotte",
+"lat": -12.83333333,
+"lon": 45.16666666,
+"reg": "Africa"
+},
+"NAM": {
+"n": "516",
+"a2": "NA",
+"nome": "Namibia",
+"lat": -22,
+"lon": 17,
+"reg": "Africa"
+},
+"NCL": {
+"n": "540",
+"a2": "NC",
+"nome": "Nuova Caledonia",
+"lat": -21.5,
+"lon": 165.5,
+"reg": "Oceania"
+},
+"NER": {
+"n": "562",
+"a2": "NE",
+"nome": "Niger",
+"lat": 16,
+"lon": 8,
+"reg": "Africa"
+},
+"NFK": {
+"n": "574",
+"a2": "NF",
+"nome": "Isola Norfolk",
+"lat": -29.03333333,
+"lon": 167.95,
+"reg": "Oceania"
+},
+"NGA": {
+"n": "566",
+"a2": "NG",
+"nome": "Nigeria",
+"lat": 10,
+"lon": 8,
+"reg": "Africa"
+},
+"NIC": {
+"n": "558",
+"a2": "NI",
+"nome": "Nicaragua",
+"lat": 13,
+"lon": -85,
+"reg": "Americas"
+},
+"NIU": {
+"n": "570",
+"a2": "NU",
+"nome": "Niue",
+"lat": -19.03333333,
+"lon": -169.86666666,
+"reg": "Oceania"
+},
+"NLD": {
+"n": "528",
+"a2": "NL",
+"nome": "Paesi Bassi",
+"lat": 52.5,
+"lon": 5.75,
+"reg": "Europe"
+},
+"NOR": {
+"n": "578",
+"a2": "NO",
+"nome": "Norvegia",
+"lat": 62,
+"lon": 10,
+"reg": "Europe"
+},
+"NPL": {
+"n": "524",
+"a2": "NP",
+"nome": "Nepal",
+"lat": 28,
+"lon": 84,
+"reg": "Asia"
+},
+"NRU": {
+"n": "520",
+"a2": "NR",
+"nome": "Nauru",
+"lat": -0.53333333,
+"lon": 166.91666666,
+"reg": "Oceania"
+},
+"NZL": {
+"n": "554",
+"a2": "NZ",
+"nome": "Nuova Zelanda",
+"lat": -41,
+"lon": 174,
+"reg": "Oceania"
+},
+"OMN": {
+"n": "512",
+"a2": "OM",
+"nome": "oman",
+"lat": 21,
+"lon": 57,
+"reg": "Asia"
+},
+"PAK": {
+"n": "586",
+"a2": "PK",
+"nome": "Pakistan",
+"lat": 30,
+"lon": 70,
+"reg": "Asia"
+},
+"PAN": {
+"n": "591",
+"a2": "PA",
+"nome": "Panama",
+"lat": 9,
+"lon": -80,
+"reg": "Americas"
+},
+"PCN": {
+"n": "612",
+"a2": "PN",
+"nome": "Isole Pitcairn",
+"lat": -25.06666666,
+"lon": -130.1,
+"reg": "Oceania"
+},
+"PER": {
+"n": "604",
+"a2": "PE",
+"nome": "Perù",
+"lat": -10,
+"lon": -76,
+"reg": "Americas"
+},
+"PHL": {
+"n": "608",
+"a2": "PH",
+"nome": "Filippine",
+"lat": 13,
+"lon": 122,
+"reg": "Asia"
+},
+"PLW": {
+"n": "585",
+"a2": "PW",
+"nome": "Palau",
+"lat": 7.5,
+"lon": 134.5,
+"reg": "Oceania"
+},
+"PNG": {
+"n": "598",
+"a2": "PG",
+"nome": "Papua Nuova Guinea",
+"lat": -6,
+"lon": 147,
+"reg": "Oceania"
+},
+"POL": {
+"n": "616",
+"a2": "PL",
+"nome": "Polonia",
+"lat": 52,
+"lon": 20,
+"reg": "Europe"
+},
+"PRI": {
+"n": "630",
+"a2": "PR",
+"nome": "Porto Rico",
+"lat": 18.25,
+"lon": -66.5,
+"reg": "Americas"
+},
+"PRK": {
+"n": "408",
+"a2": "KP",
+"nome": "Corea del Nord",
+"lat": 40,
+"lon": 127,
+"reg": "Asia"
+},
+"PRT": {
+"n": "620",
+"a2": "PT",
+"nome": "Portogallo",
+"lat": 39.5,
+"lon": -8,
+"reg": "Europe"
+},
+"PRY": {
+"n": "600",
+"a2": "PY",
+"nome": "Paraguay",
+"lat": -23,
+"lon": -58,
+"reg": "Americas"
+},
+"PSE": {
+"n": "275",
+"a2": "PS",
+"nome": "Palestina",
+"lat": 31.9,
+"lon": 35.2,
+"reg": "Asia"
+},
+"PYF": {
+"n": "258",
+"a2": "PF",
+"nome": "Polinesia Francese",
+"lat": -15,
+"lon": -140,
+"reg": "Oceania"
+},
+"QAT": {
+"n": "634",
+"a2": "QA",
+"nome": "Qatar",
+"lat": 25.5,
+"lon": 51.25,
+"reg": "Asia"
+},
+"REU": {
+"n": "638",
+"a2": "RE",
+"nome": "Riunione",
+"lat": -21.15,
+"lon": 55.5,
+"reg": "Africa"
+},
+"ROU": {
+"n": "642",
+"a2": "RO",
+"nome": "Romania",
+"lat": 46,
+"lon": 25,
+"reg": "Europe"
+},
+"RUS": {
+"n": "643",
+"a2": "RU",
+"nome": "Russia",
+"lat": 60,
+"lon": 100,
+"reg": "Europe"
+},
+"RWA": {
+"n": "646",
+"a2": "RW",
+"nome": "Ruanda",
+"lat": -2,
+"lon": 30,
+"reg": "Africa"
+},
+"SAU": {
+"n": "682",
+"a2": "SA",
+"nome": "Arabia Saudita",
+"lat": 25,
+"lon": 45,
+"reg": "Asia"
+},
+"SDN": {
+"n": "729",
+"a2": "SD",
+"nome": "Sudan",
+"lat": 15,
+"lon": 30,
+"reg": "Africa"
+},
+"SEN": {
+"n": "686",
+"a2": "SN",
+"nome": "Senegal",
+"lat": 14,
+"lon": -14,
+"reg": "Africa"
+},
+"SGP": {
+"n": "702",
+"a2": "SG",
+"nome": "Singapore",
+"lat": 1.36666666,
+"lon": 103.8,
+"reg": "Asia"
+},
+"SGS": {
+"n": "239",
+"a2": "GS",
+"nome": "Georgia del Sud e Isole Sandwich Meridionali",
+"lat": -54.5,
+"lon": -37,
+"reg": "Antarctic"
+},
+"SJM": {
+"n": "744",
+"a2": "SJ",
+"nome": "Svalbard e Jan Mayen",
+"lat": 78,
+"lon": 20,
+"reg": "Europe"
+},
+"SLB": {
+"n": "090",
+"a2": "SB",
+"nome": "Isole Salomone",
+"lat": -8,
+"lon": 159,
+"reg": "Oceania"
+},
+"SLE": {
+"n": "694",
+"a2": "SL",
+"nome": "Sierra Leone",
+"lat": 8.5,
+"lon": -11.5,
+"reg": "Africa"
+},
+"SLV": {
+"n": "222",
+"a2": "SV",
+"nome": "El Salvador",
+"lat": 13.83333333,
+"lon": -88.91666666,
+"reg": "Americas"
+},
+"SMR": {
+"n": "674",
+"a2": "SM",
+"nome": "San Marino",
+"lat": 43.76666666,
+"lon": 12.41666666,
+"reg": "Europe"
+},
+"SOM": {
+"n": "706",
+"a2": "SO",
+"nome": "Somalia",
+"lat": 10,
+"lon": 49,
+"reg": "Africa"
+},
+"SPM": {
+"n": "666",
+"a2": "PM",
+"nome": "Saint-Pierre e Miquelon",
+"lat": 46.83333333,
+"lon": -56.33333333,
+"reg": "Americas"
+},
+"SRB": {
+"n": "688",
+"a2": "RS",
+"nome": "Serbia",
+"lat": 44,
+"lon": 21,
+"reg": "Europe"
+},
+"SSD": {
+"n": "728",
+"a2": "SS",
+"nome": "Sudan del sud",
+"lat": 7,
+"lon": 30,
+"reg": "Africa"
+},
+"STP": {
+"n": "678",
+"a2": "ST",
+"nome": "São Tomé e Príncipe",
+"lat": 1,
+"lon": 7,
+"reg": "Africa"
+},
+"SUR": {
+"n": "740",
+"a2": "SR",
+"nome": "Suriname",
+"lat": 4,
+"lon": -56,
+"reg": "Americas"
+},
+"SVK": {
+"n": "703",
+"a2": "SK",
+"nome": "Slovacchia",
+"lat": 48.66666666,
+"lon": 19.5,
+"reg": "Europe"
+},
+"SVN": {
+"n": "705",
+"a2": "SI",
+"nome": "Slovenia",
+"lat": 46.11666666,
+"lon": 14.81666666,
+"reg": "Europe"
+},
+"SWE": {
+"n": "752",
+"a2": "SE",
+"nome": "Svezia",
+"lat": 62,
+"lon": 15,
+"reg": "Europe"
+},
+"SWZ": {
+"n": "748",
+"a2": "SZ",
+"nome": "ESwatini",
+"lat": -26.5,
+"lon": 31.5,
+"reg": "Africa"
+},
+"SXM": {
+"n": "534",
+"a2": "SX",
+"nome": "Sint Maarten",
+"lat": 18.033333,
+"lon": -63.05,
+"reg": "Americas"
+},
+"SYC": {
+"n": "690",
+"a2": "SC",
+"nome": "Seychelles",
+"lat": -4.58333333,
+"lon": 55.66666666,
+"reg": "Africa"
+},
+"SYR": {
+"n": "760",
+"a2": "SY",
+"nome": "Siria",
+"lat": 35,
+"lon": 38,
+"reg": "Asia"
+},
+"TCA": {
+"n": "796",
+"a2": "TC",
+"nome": "Isole Turks e Caicos",
+"lat": 21.75,
+"lon": -71.58333333,
+"reg": "Americas"
+},
+"TCD": {
+"n": "148",
+"a2": "TD",
+"nome": "Ciad",
+"lat": 15,
+"lon": 19,
+"reg": "Africa"
+},
+"TGO": {
+"n": "768",
+"a2": "TG",
+"nome": "Togo",
+"lat": 8,
+"lon": 1.16666666,
+"reg": "Africa"
+},
+"THA": {
+"n": "764",
+"a2": "TH",
+"nome": "Tailandia",
+"lat": 15,
+"lon": 100,
+"reg": "Asia"
+},
+"TJK": {
+"n": "762",
+"a2": "TJ",
+"nome": "Tagikistan",
+"lat": 39,
+"lon": 71,
+"reg": "Asia"
+},
+"TKL": {
+"n": "772",
+"a2": "TK",
+"nome": "Isole Tokelau",
+"lat": -9,
+"lon": -172,
+"reg": "Oceania"
+},
+"TKM": {
+"n": "795",
+"a2": "TM",
+"nome": "Turkmenistan",
+"lat": 40,
+"lon": 60,
+"reg": "Asia"
+},
+"TLS": {
+"n": "626",
+"a2": "TL",
+"nome": "Timor Est",
+"lat": -8.83333333,
+"lon": 125.91666666,
+"reg": "Asia"
+},
+"TON": {
+"n": "776",
+"a2": "TO",
+"nome": "Tonga",
+"lat": -20,
+"lon": -175,
+"reg": "Oceania"
+},
+"TTO": {
+"n": "780",
+"a2": "TT",
+"nome": "Trinidad e Tobago",
+"lat": 11,
+"lon": -61,
+"reg": "Americas"
+},
+"TUN": {
+"n": "788",
+"a2": "TN",
+"nome": "Tunisia",
+"lat": 34,
+"lon": 9,
+"reg": "Africa"
+},
+"TUR": {
+"n": "792",
+"a2": "TR",
+"nome": "Turchia",
+"lat": 39,
+"lon": 35,
+"reg": "Asia"
+},
+"TUV": {
+"n": "798",
+"a2": "TV",
+"nome": "Tuvalu",
+"lat": -8,
+"lon": 178,
+"reg": "Oceania"
+},
+"TWN": {
+"n": "158",
+"a2": "TW",
+"nome": "Taiwan",
+"lat": 23.5,
+"lon": 121,
+"reg": "Asia"
+},
+"TZA": {
+"n": "834",
+"a2": "TZ",
+"nome": "Tanzania",
+"lat": -6,
+"lon": 35,
+"reg": "Africa"
+},
+"UGA": {
+"n": "800",
+"a2": "UG",
+"nome": "Uganda",
+"lat": 1,
+"lon": 32,
+"reg": "Africa"
+},
+"UKR": {
+"n": "804",
+"a2": "UA",
+"nome": "Ucraina",
+"lat": 49,
+"lon": 32,
+"reg": "Europe"
+},
+"UMI": {
+"n": "581",
+"a2": "UM",
+"nome": "Isole minori esterne degli Stati Uniti d'America",
+"lat": 19.3,
+"lon": 166.633333,
+"reg": "Americas"
+},
+"URY": {
+"n": "858",
+"a2": "UY",
+"nome": "Uruguay",
+"lat": -33,
+"lon": -56,
+"reg": "Americas"
+},
+"USA": {
+"n": "840",
+"a2": "US",
+"nome": "Stati Uniti",
+"lat": 38,
+"lon": -97,
+"reg": "Americas"
+},
+"UZB": {
+"n": "860",
+"a2": "UZ",
+"nome": "Uzbekistan",
+"lat": 41,
+"lon": 64,
+"reg": "Asia"
+},
+"VAT": {
+"n": "336",
+"a2": "VA",
+"nome": "Città del Vaticano",
+"lat": 41.9,
+"lon": 12.45,
+"reg": "Europe"
+},
+"VCT": {
+"n": "670",
+"a2": "VC",
+"nome": "Saint Vincent e Grenadine",
+"lat": 13.25,
+"lon": -61.2,
+"reg": "Americas"
+},
+"VEN": {
+"n": "862",
+"a2": "VE",
+"nome": "Venezuela",
+"lat": 8,
+"lon": -66,
+"reg": "Americas"
+},
+"VGB": {
+"n": "092",
+"a2": "VG",
+"nome": "Isole Vergini Britanniche",
+"lat": 18.431383,
+"lon": -64.62305,
+"reg": "Americas"
+},
+"VIR": {
+"n": "850",
+"a2": "VI",
+"nome": "Isole Vergini americane",
+"lat": 18.35,
+"lon": -64.933333,
+"reg": "Americas"
+},
+"VNM": {
+"n": "704",
+"a2": "VN",
+"nome": "Vietnam",
+"lat": 16.16666666,
+"lon": 107.83333333,
+"reg": "Asia"
+},
+"VUT": {
+"n": "548",
+"a2": "VU",
+"nome": "Vanuatu",
+"lat": -16,
+"lon": 167,
+"reg": "Oceania"
+},
+"WLF": {
+"n": "876",
+"a2": "WF",
+"nome": "Wallis e Futuna",
+"lat": -13.3,
+"lon": -176.2,
+"reg": "Oceania"
+},
+"WSM": {
+"n": "882",
+"a2": "WS",
+"nome": "Samoa",
+"lat": -13.58333333,
+"lon": -172.33333333,
+"reg": "Oceania"
+},
+"YEM": {
+"n": "887",
+"a2": "YE",
+"nome": "Yemen",
+"lat": 15,
+"lon": 48,
+"reg": "Asia"
+},
+"ZAF": {
+"n": "710",
+"a2": "ZA",
+"nome": "Sud Africa",
+"lat": -29,
+"lon": 24,
+"reg": "Africa"
+},
+"ZMB": {
+"n": "894",
+"a2": "ZM",
+"nome": "Zambia",
+"lat": -15,
+"lon": 30,
+"reg": "Africa"
+},
+"ZWE": {
+"n": "716",
+"a2": "ZW",
+"nome": "Zimbabwe",
+"lat": -20,
+"lon": 30,
+"reg": "Africa"
+}
+}

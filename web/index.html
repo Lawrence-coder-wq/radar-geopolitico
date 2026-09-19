@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>GeoLaw</title>
+<link rel="icon" type="image/png" href="icona.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Inter+Tight:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="stile.css">
+</head>
+<body>
+<header class="barra">
+  <div class="marchio"><span class="spia"></span>GEO<b>LAW</b></div>
+  <nav class="schede" id="schede">
+    <button data-vista="mappa" class="attiva">MAPPA DEI CONFLITTI</button>
+    <button data-vista="flusso">FLUSSO NOTIZIE</button>
+    <button data-vista="rapporto">RAPPORTO DEL GIORNO</button>
+    <button data-vista="stretti">STRETTI E ROTTE</button>
+  </nav>
+  <div class="cerca">
+    <input id="cerca" type="search" placeholder="Cerca un paese…" autocomplete="off" spellcheck="false">
+    <div class="cerca-esiti" id="cercaEsiti" hidden></div>
+  </div>
+  <div class="orologio"><span id="ora">--:--</span><small id="aggiornato">avvio…</small></div>
+</header>
+<div class="nastro" id="nastro"><div class="nastro-corsa" id="nastroCorsa"></div></div>
+
+<main id="palco">
+  <div id="globo"></div>
+
+  <div class="interruttori" id="interruttori">
+    <button data-strato="conflitti" class="acceso"><i class="p rosso"></i>Conflitti</button>
+    <button data-strato="aerei"><i class="p ciano"></i>Aerei militari dal vivo</button>
+    <button data-strato="natura"><i class="p ambra"></i>Terremoti ed eventi naturali</button>
+    <button data-strato="stretti" class="acceso"><i class="p bianco"></i>Stretti</button>
+    <button data-strato="gira" class="acceso">⟳ Rotazione</button>
+  </div>
+
+  <aside class="colonna sinistra">
+    <section class="riquadro" id="riqAllerte">
+      <h3><span class="lampo"></span>ALLERTE ATTIVE <em id="nAllerte"></em></h3>
+      <div class="lista" id="allerte"></div>
+    </section>
+    <section class="riquadro legenda">
+      <h3>LEGENDA</h3>
+      <p><i class="q alto"></i>Alto rischio <small>indice 60+</small></p>
+      <p><i class="q medio"></i>Tensione <small>38–59</small></p>
+      <p><i class="q basso"></i>Stabile <small>sotto 38</small></p>
+      <p class="nota">Indice = rischio di fondo del paese + peso delle notizie delle ultime 72 ore. Clicca un paese per la scheda.</p>
+    </section>
+  </aside>
+
+  <aside class="colonna destra" id="colonnaDestra">
+    <section class="riquadro cresce">
+      <h3>ULTIME NOTIZIE <em id="nNotizie"></em></h3>
+      <div class="lista" id="ultime"></div>
+    </section>
+    <section class="riquadro" id="riqTv">
+      <h3>DIRETTA TV
+        <span class="canali" id="canali">
+          <button data-canale="UC1mX9vuLOYf8fhaXS_KcDRg" class="attivo">Euronews</button>
+          <a href="https://www.youtube.com/@skytg24/live" target="_blank" rel="noopener" title="Sky TG24 non permette la visione dentro altre pagine: si apre su YouTube">Sky TG24 ↗</a>
+        </span>
+      </h3>
+      <div class="tv" id="tv"><button class="tv-avvia" id="tvAvvia">▶ Accendi la diretta</button></div>
+    </section>
+  </aside>
+
+  <aside class="cassetto" id="cassetto" hidden>
+    <button class="chiudi" id="chiudiCassetto" aria-label="Chiudi">✕</button>
+    <div id="cassettoCorpo"></div>
+  </aside>
+
+  <section class="vista" id="vista-flusso" hidden></section>
+  <section class="vista" id="vista-rapporto" hidden></section>
+  <section class="vista" id="vista-stretti" hidden></section>
+
+  <div class="avviso" id="avviso">Accensione del radar…</div>
+  <div class="etichetta-volante" id="volante" hidden></div>
+</main>
+
+<script src="https://cdn.jsdelivr.net/npm/globe.gl@2.46.2/dist/globe.gl.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/topojson-client@3.1.0/dist/topojson-client.min.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

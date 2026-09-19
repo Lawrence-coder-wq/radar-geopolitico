@@ -1,0 +1,1915 @@
+{
+ "_nota": "File modificabile a mano. 'base' = rischio di fondo 0-100 (stima editoriale). 'alias' = espressioni regolari cercate nei titoli; con '=' davanti la ricerca distingue maiuscole/minuscole. 'punto' = dove mettere il segnale sul globo se diverso dal centro del paese.",
+ "paesi": {
+  "UKR": {
+   "base": 84,
+   "alias": [
+    "ucrain[aoei]",
+    "kiev",
+    "kyiv",
+    "zelensk[yi]j?"
+   ],
+   "contesto": "In guerra con la Russia dall'invasione su larga scala del febbraio 2022; fronte attivo a est e a sud, attacchi quotidiani con droni e missili."
+  },
+  "RUS": {
+   "base": 70,
+   "alias": [
+    "russ[aoie]",
+    "mosca",
+    "putin",
+    "cremlino",
+    "lavrov",
+    "peskov",
+    "medvedev"
+   ],
+   "punto": [
+    55.75,
+    37.62
+   ],
+   "contesto": "Potenza nucleare impegnata nella guerra in Ucraina, sotto sanzioni occidentali e in confronto aperto con la NATO."
+  },
+  "PSE": {
+   "base": 88,
+   "alias": [
+    "palestin\\w+",
+    "gaza",
+    "hamas",
+    "cisgiordania",
+    "rafah",
+    "khan yun[ie]s",
+    "ramallah",
+    "jenin",
+    "=Striscia"
+   ],
+   "punto": [
+    31.45,
+    34.4
+   ],
+   "contesto": "Gaza devastata dalla guerra iniziata il 7 ottobre 2023; crisi umanitaria gravissima e tensione costante in Cisgiordania."
+  },
+  "ISR": {
+   "base": 74,
+   "alias": [
+    "israel\\w+",
+    "netanyahu",
+    "tel aviv",
+    "=Idf",
+    "=IDF",
+    "gerusalemme",
+    "knesset",
+    "mossad"
+   ],
+   "contesto": "In conflitto su più fronti (Gaza, Libano, Iran, Yemen) dal 7 ottobre 2023."
+  },
+  "IRN": {
+   "base": 70,
+   "alias": [
+    "iran",
+    "iranian[oaie]",
+    "teheran",
+    "khamenei",
+    "pasdaran",
+    "ayatollah"
+   ],
+   "punto": [
+    35.7,
+    51.4
+   ],
+   "contesto": "Confronto diretto con Israele e Stati Uniti, programma nucleare al centro delle tensioni, rete di milizie alleate nella regione."
+  },
+  "LBN": {
+   "base": 64,
+   "alias": [
+    "liban\\w+",
+    "beirut",
+    "hezbollah"
+   ],
+   "contesto": "Paese in crisi economica profonda, con Hezbollah e Israele in stato di conflitto ricorrente lungo il confine sud."
+  },
+  "SYR": {
+   "base": 66,
+   "alias": [
+    "siri[ao]",
+    "sirian[oaie]",
+    "damasco",
+    "aleppo",
+    "idlib",
+    "al[- ]sharaa",
+    "al[- ]jolani"
+   ],
+   "contesto": "Transizione fragile dopo la caduta di Assad nel dicembre 2024; presenza di forze straniere e violenze settarie."
+  },
+  "YEM": {
+   "base": 78,
+   "alias": [
+    "yemen\\w*",
+    "h[o]?uthi",
+    "sana'?a",
+    "hodeida",
+    "aden"
+   ],
+   "contesto": "Guerra civile dal 2014; gli Houthi controllano il nord-ovest e minacciano il traffico navale nel Mar Rosso."
+  },
+  "IRQ": {
+   "base": 54,
+   "alias": [
+    "iraq",
+    "irachen[oaie]",
+    "baghdad",
+    "erbil",
+    "kirkuk",
+    "mosul"
+   ],
+   "contesto": "Stabilità precaria, milizie filo-iraniane attive e presenza militare straniera residua."
+  },
+  "SDN": {
+   "base": 88,
+   "alias": [
+    "sudan(?! del sud)",
+    "sudanes[ei]",
+    "khartoum",
+    "darfur",
+    "el[- ]fasher",
+    "=Rsf",
+    "=RSF"
+   ],
+   "contesto": "Guerra civile dall'aprile 2023 tra esercito e Forze di supporto rapido: la più grave crisi umanitaria e di sfollati al mondo."
+  },
+  "SSD": {
+   "base": 68,
+   "alias": [
+    "sud sudan",
+    "sudan del sud",
+    "juba"
+   ],
+   "contesto": "Accordo di pace fragile, violenze ricorrenti e rischio di ritorno alla guerra civile."
+  },
+  "MMR": {
+   "base": 78,
+   "alias": [
+    "myanmar",
+    "birman\\w+",
+    "naypyidaw",
+    "rohingya",
+    "yangon"
+   ],
+   "contesto": "Guerra civile dopo il golpe militare del 2021; la giunta ha perso il controllo di ampie zone del paese."
+  },
+  "AFG": {
+   "base": 66,
+   "alias": [
+    "afghan\\w+",
+    "afgan\\w+",
+    "kabul",
+    "taleban[i]?",
+    "taliban[i]?"
+   ],
+   "contesto": "Sotto il governo dei talebani dal 2021; crisi umanitaria, attentati dell'Isis-K e scontri di confine con il Pakistan."
+  },
+  "PAK": {
+   "base": 58,
+   "alias": [
+    "pakistan\\w*",
+    "islamabad",
+    "karachi",
+    "lahore",
+    "belucistan"
+   ],
+   "contesto": "Potenza nucleare con forte instabilità interna, terrorismo nelle regioni di confine e rivalità storica con l'India."
+  },
+  "IND": {
+   "base": 36,
+   "alias": [
+    "=India",
+    "(?<!oceano )indian[oaie]",
+    "nuova delhi",
+    "new delhi",
+    "=Modi",
+    "kashmir"
+   ],
+   "punto": [
+    28.6,
+    77.2
+   ],
+   "contesto": "Potenza nucleare in crescita; tensioni ricorrenti con Pakistan (Kashmir) e Cina (Himalaya)."
+  },
+  "CHN": {
+   "base": 42,
+   "alias": [
+    "=Cina",
+    "cines[ei]",
+    "pechino",
+    "xi jinping",
+    "hong kong"
+   ],
+   "punto": [
+    39.9,
+    116.4
+   ],
+   "contesto": "Rivalità strategica con gli Stati Uniti; pressione militare su Taiwan e nel Mar Cinese Meridionale."
+  },
+  "TWN": {
+   "base": 52,
+   "alias": [
+    "taiwan\\w*",
+    "taipei"
+   ],
+   "contesto": "Isola rivendicata da Pechino; esercitazioni militari cinesi frequenti nello stretto."
+  },
+  "PRK": {
+   "base": 58,
+   "alias": [
+    "corea del nord",
+    "nord ?corea\\w*",
+    "pyongyang",
+    "kim jong[- ]un"
+   ],
+   "contesto": "Regime nucleare isolato, test missilistici ricorrenti e cooperazione militare con la Russia."
+  },
+  "KOR": {
+   "base": 30,
+   "alias": [
+    "corea del sud",
+    "sud ?corea\\w*",
+    "seul",
+    "seoul"
+   ],
+   "contesto": "Tecnicamente ancora in guerra con il Nord; forte presenza militare statunitense."
+  },
+  "JPN": {
+   "base": 18,
+   "alias": [
+    "giappon\\w+",
+    "tokyo"
+   ]
+  },
+  "PHL": {
+   "base": 38,
+   "alias": [
+    "filippin\\w+",
+    "manila"
+   ],
+   "contesto": "Scontri ricorrenti con la guardia costiera cinese nel Mar Cinese Meridionale."
+  },
+  "SOM": {
+   "base": 74,
+   "alias": [
+    "somal\\w+",
+    "mogadiscio",
+    "al[- ]shabaab",
+    "shabaab"
+   ],
+   "contesto": "Insurrezione jihadista di al-Shabaab, stato fragile e pirateria al largo delle coste."
+  },
+  "ETH": {
+   "base": 62,
+   "alias": [
+    "etiop\\w+",
+    "addis abeba",
+    "tigr[aè]y?",
+    "amhara"
+   ],
+   "contesto": "Dopo la guerra del Tigray restano conflitti armati in Amhara e Oromia e tensioni con l'Eritrea."
+  },
+  "ERI": {
+   "base": 48,
+   "alias": [
+    "eritre\\w+",
+    "asmara"
+   ]
+  },
+  "COD": {
+   "base": 78,
+   "alias": [
+    "congo",
+    "congoles[ei]",
+    "kinshasa",
+    "goma",
+    "=M23",
+    "kivu"
+   ],
+   "punto": [
+    -1.68,
+    29.22
+   ],
+   "contesto": "Guerra nell'est contro i ribelli M23 sostenuti dal Ruanda; milioni di sfollati."
+  },
+  "RWA": {
+   "base": 44,
+   "alias": [
+    "ruand\\w+",
+    "rwanda",
+    "kigali"
+   ]
+  },
+  "MLI": {
+   "base": 72,
+   "alias": [
+    "=Mali",
+    "malian[oaie]",
+    "bamako"
+   ],
+   "contesto": "Giunta militare, insurrezione jihadista e presenza di paramilitari russi."
+  },
+  "BFA": {
+   "base": 74,
+   "alias": [
+    "burkina( faso)?",
+    "ouagadougou"
+   ],
+   "contesto": "Giunta militare; gruppi jihadisti controllano ampie zone del territorio."
+  },
+  "NER": {
+   "base": 64,
+   "alias": [
+    "=Niger",
+    "nigerin[oaie]",
+    "niamey"
+   ],
+   "contesto": "Giunta militare dal 2023, rottura con l'Occidente e minaccia jihadista nel Sahel."
+  },
+  "NGA": {
+   "base": 60,
+   "alias": [
+    "nigeri[a]",
+    "nigerian[oaie]",
+    "abuja",
+    "lagos",
+    "boko haram"
+   ],
+   "contesto": "Boko Haram e Iswap a nord-est, banditismo e rapimenti di massa a nord-ovest."
+  },
+  "TCD": {
+   "base": 56,
+   "alias": [
+    "=Ciad",
+    "ciadian[oaie]",
+    "n'?djamena"
+   ]
+  },
+  "CAF": {
+   "base": 68,
+   "alias": [
+    "repubblica centrafricana",
+    "centrafric\\w+",
+    "bangui"
+   ]
+  },
+  "CMR": {
+   "base": 50,
+   "alias": [
+    "camerun\\w*",
+    "yaound[eé]"
+   ]
+  },
+  "MOZ": {
+   "base": 52,
+   "alias": [
+    "mozambic\\w+",
+    "maputo",
+    "cabo delgado"
+   ]
+  },
+  "LBY": {
+   "base": 60,
+   "alias": [
+    "libi[ac]\\w*",
+    "tripoli",
+    "bengasi",
+    "haftar",
+    "dbeibah",
+    "misurata"
+   ],
+   "punto": [
+    32.88,
+    13.19
+   ],
+   "contesto": "Paese diviso tra due governi rivali, milizie armate e snodo delle rotte migratorie verso l'Italia."
+  },
+  "TUN": {
+   "base": 34,
+   "alias": [
+    "tunisi\\w*",
+    "saied"
+   ]
+  },
+  "DZA": {
+   "base": 30,
+   "alias": [
+    "algeri\\w*"
+   ]
+  },
+  "MAR": {
+   "base": 24,
+   "alias": [
+    "marocc\\w+",
+    "rabat",
+    "sahara occidentale"
+   ]
+  },
+  "EGY": {
+   "base": 42,
+   "alias": [
+    "egitt\\w+",
+    "egizian[oaie]",
+    "il cairo",
+    "al[- ]sisi",
+    "sinai"
+   ],
+   "punto": [
+    30.05,
+    31.25
+   ]
+  },
+  "SAU": {
+   "base": 34,
+   "alias": [
+    "arabia saudita",
+    "=Arabia",
+    "saudit[aei]",
+    "riad",
+    "riyadh",
+    "bin salman"
+   ],
+   "punto": [
+    24.7,
+    46.7
+   ]
+  },
+  "ARE": {
+   "base": 24,
+   "alias": [
+    "emirati( arabi)?( uniti)?",
+    "abu dhabi",
+    "dubai"
+   ]
+  },
+  "QAT": {
+   "base": 26,
+   "alias": [
+    "qatar\\w*",
+    "doha"
+   ]
+  },
+  "KWT": {
+   "base": 22,
+   "alias": [
+    "kuwait"
+   ]
+  },
+  "BHR": {
+   "base": 26,
+   "alias": [
+    "bahrein",
+    "bahrain"
+   ]
+  },
+  "OMN": {
+   "base": 20,
+   "alias": [
+    "=Oman",
+    "mascate"
+   ]
+  },
+  "JOR": {
+   "base": 38,
+   "alias": [
+    "giordan\\w+",
+    "amman"
+   ]
+  },
+  "TUR": {
+   "base": 40,
+   "alias": [
+    "turchia",
+    "turc[oaie]",
+    "turch[ei]",
+    "ankara",
+    "istanbul",
+    "erdogan",
+    "=Pkk",
+    "=PKK"
+   ],
+   "contesto": "Membro NATO con politica estera autonoma; attore chiave in Siria, Caucaso, Mar Nero e Mediterraneo orientale."
+  },
+  "CYP": {
+   "base": 24,
+   "alias": [
+    "cipro",
+    "cipriot[aei]",
+    "nicosia"
+   ]
+  },
+  "GRC": {
+   "base": 14,
+   "alias": [
+    "greci[a]",
+    "grec[oai]",
+    "atene"
+   ]
+  },
+  "ARM": {
+   "base": 40,
+   "alias": [
+    "armen\\w+",
+    "erevan",
+    "yerevan"
+   ]
+  },
+  "AZE": {
+   "base": 40,
+   "alias": [
+    "azer\\w+",
+    "baku",
+    "nagorno[- ]karabakh"
+   ]
+  },
+  "GEO": {
+   "base": 42,
+   "alias": [
+    "=Georgia",
+    "georgian[oaie]",
+    "tbilisi"
+   ]
+  },
+  "BLR": {
+   "base": 48,
+   "alias": [
+    "bielorussi\\w*",
+    "minsk",
+    "lukashenko"
+   ],
+   "contesto": "Alleato stretto di Mosca, ospita forze e armamenti russi al confine con la NATO."
+  },
+  "MDA": {
+   "base": 40,
+   "alias": [
+    "moldav\\w+",
+    "moldov\\w+",
+    "chisinau",
+    "transnistria"
+   ]
+  },
+  "POL": {
+   "base": 28,
+   "alias": [
+    "poloni\\w*",
+    "polacc\\w+",
+    "varsavia",
+    "tusk"
+   ],
+   "contesto": "Prima linea del fianco est della NATO; forte riarmo e incidenti legati a droni e sabotaggi."
+  },
+  "EST": {
+   "base": 28,
+   "alias": [
+    "estoni\\w*",
+    "tallinn"
+   ]
+  },
+  "LVA": {
+   "base": 27,
+   "alias": [
+    "lettoni\\w*",
+    "lettone",
+    "=Riga"
+   ]
+  },
+  "LTU": {
+   "base": 28,
+   "alias": [
+    "lituan\\w+",
+    "vilnius"
+   ]
+  },
+  "FIN": {
+   "base": 22,
+   "alias": [
+    "finland\\w+",
+    "helsinki"
+   ]
+  },
+  "SWE": {
+   "base": 14,
+   "alias": [
+    "svezi\\w*",
+    "svedes[ei]",
+    "stoccolma"
+   ]
+  },
+  "NOR": {
+   "base": 12,
+   "alias": [
+    "norveg\\w+",
+    "oslo"
+   ]
+  },
+  "DNK": {
+   "base": 14,
+   "alias": [
+    "danimarca",
+    "danes[ei]",
+    "copenaghen"
+   ]
+  },
+  "GRL": {
+   "base": 24,
+   "alias": [
+    "groenlandi\\w*",
+    "nuuk"
+   ]
+  },
+  "ROU": {
+   "base": 24,
+   "alias": [
+    "romani[a]",
+    "rumen[oaie]",
+    "romen[oaie]",
+    "bucarest"
+   ]
+  },
+  "BGR": {
+   "base": 18,
+   "alias": [
+    "bulgari\\w*"
+   ]
+  },
+  "HUN": {
+   "base": 20,
+   "alias": [
+    "ungher\\w+",
+    "budapest",
+    "orb[aá]n"
+   ]
+  },
+  "SVK": {
+   "base": 18,
+   "alias": [
+    "slovacc\\w+",
+    "bratislava",
+    "=Fico"
+   ]
+  },
+  "CZE": {
+   "base": 12,
+   "alias": [
+    "cechia",
+    "repubblica ceca",
+    "praga"
+   ]
+  },
+  "SRB": {
+   "base": 36,
+   "alias": [
+    "serbi\\w*",
+    "belgrado",
+    "vucic"
+   ]
+  },
+  "UNK": {
+   "base": 40,
+   "alias": [
+    "kosov\\w+",
+    "pristina"
+   ]
+  },
+  "BIH": {
+   "base": 36,
+   "alias": [
+    "bosni\\w*",
+    "sarajevo",
+    "dodik",
+    "republika srpska"
+   ]
+  },
+  "DEU": {
+   "base": 14,
+   "alias": [
+    "germani[a]",
+    "tedesc\\w+",
+    "berlino",
+    "merz"
+   ]
+  },
+  "FRA": {
+   "base": 16,
+   "alias": [
+    "franci[a]",
+    "frances[ei]",
+    "parigi",
+    "macron",
+    "eliseo"
+   ]
+  },
+  "GBR": {
+   "base": 14,
+   "alias": [
+    "regno unito",
+    "gran bretagna",
+    "britannic\\w+",
+    "londra",
+    "starmer",
+    "=Uk",
+    "=UK"
+   ]
+  },
+  "ITA": {
+   "base": 12,
+   "alias": [
+    "=Italia",
+    "italian[oaie]",
+    "meloni",
+    "tajani",
+    "crosetto",
+    "farnesina",
+    "palazzo chigi",
+    "mattarella"
+   ],
+   "punto": [
+    41.9,
+    12.5
+   ]
+  },
+  "ESP": {
+   "base": 12,
+   "alias": [
+    "spagn\\w+",
+    "madrid",
+    "s[aá]nchez"
+   ]
+  },
+  "PRT": {
+   "base": 8,
+   "alias": [
+    "portogallo",
+    "portoghes[ei]",
+    "lisbona"
+   ]
+  },
+  "NLD": {
+   "base": 10,
+   "alias": [
+    "paesi bassi",
+    "olanda",
+    "olandes[ei]",
+    "l'aia"
+   ]
+  },
+  "BEL": {
+   "base": 12,
+   "alias": [
+    "belgio",
+    "belg[aih]+"
+   ]
+  },
+  "CHE": {
+   "base": 6,
+   "alias": [
+    "svizzer\\w+",
+    "ginevra",
+    "berna"
+   ]
+  },
+  "AUT": {
+   "base": 8,
+   "alias": [
+    "austri\\w+",
+    "vienna"
+   ]
+  },
+  "VAT": {
+   "base": 4,
+   "alias": [
+    "vatican\\w+",
+    "santa sede",
+    "papa leone",
+    "=Papa"
+   ]
+  },
+  "USA": {
+   "base": 30,
+   "alias": [
+    "stati uniti",
+    "=Usa",
+    "=USA",
+    "american[oaie]",
+    "statunitens[ei]",
+    "trump",
+    "casa bianca",
+    "washington",
+    "pentagono",
+    "vance",
+    "rubio",
+    "hegseth"
+   ],
+   "punto": [
+    38.9,
+    -77.03
+   ],
+   "contesto": "Prima potenza militare mondiale; forte polarizzazione interna e politica estera aggressiva su dazi, alleanze e uso della forza."
+  },
+  "CAN": {
+   "base": 8,
+   "alias": [
+    "canad\\w+",
+    "ottawa",
+    "carney"
+   ],
+   "punto": [
+    45.4,
+    -75.7
+   ]
+  },
+  "MEX": {
+   "base": 50,
+   "alias": [
+    "messic\\w+",
+    "sheinbaum",
+    "sinaloa"
+   ],
+   "contesto": "Violenza dei cartelli della droga e pressione statunitense su confine, dazi e sicurezza."
+  },
+  "CUB": {
+   "base": 36,
+   "alias": [
+    "=Cuba",
+    "cuban[oaie]",
+    "l'avana"
+   ]
+  },
+  "HTI": {
+   "base": 80,
+   "alias": [
+    "haiti\\w*",
+    "port[- ]au[- ]prince"
+   ],
+   "contesto": "Stato al collasso: le bande armate controllano gran parte della capitale."
+  },
+  "VEN": {
+   "base": 58,
+   "alias": [
+    "venezuel\\w+",
+    "caracas",
+    "maduro",
+    "machado"
+   ],
+   "contesto": "Crisi politica ed economica di lungo corso e forte pressione militare e diplomatica degli Stati Uniti."
+  },
+  "COL": {
+   "base": 48,
+   "alias": [
+    "colombi\\w+",
+    "bogot[aà]",
+    "=Petro"
+   ]
+  },
+  "ECU": {
+   "base": 50,
+   "alias": [
+    "ecuador\\w*",
+    "quito",
+    "noboa"
+   ]
+  },
+  "PER": {
+   "base": 34,
+   "alias": [
+    "=Per[uù]",
+    "peruvian[oaie]",
+    "=Lima"
+   ]
+  },
+  "BOL": {
+   "base": 32,
+   "alias": [
+    "bolivi\\w+",
+    "la paz"
+   ]
+  },
+  "BRA": {
+   "base": 26,
+   "alias": [
+    "brasil\\w+",
+    "lula",
+    "bolsonaro"
+   ],
+   "punto": [
+    -15.8,
+    -47.9
+   ]
+  },
+  "ARG": {
+   "base": 22,
+   "alias": [
+    "argentin\\w+",
+    "buenos aires",
+    "milei"
+   ]
+  },
+  "CHL": {
+   "base": 14,
+   "alias": [
+    "=Cile",
+    "cilen[oaie]",
+    "santiago del cile"
+   ]
+  },
+  "PAN": {
+   "base": 22,
+   "alias": [
+    "panam[aá]",
+    "panamens[ei]"
+   ]
+  },
+  "NIC": {
+   "base": 34,
+   "alias": [
+    "nicaragu\\w+",
+    "ortega"
+   ]
+  },
+  "AUS": {
+   "base": 8,
+   "alias": [
+    "australi\\w+",
+    "canberra",
+    "sydney"
+   ],
+   "punto": [
+    -35.3,
+    149.1
+   ]
+  },
+  "NZL": {
+   "base": 5,
+   "alias": [
+    "nuova zelanda",
+    "neozelandes[ei]"
+   ]
+  },
+  "IDN": {
+   "base": 24,
+   "alias": [
+    "indonesi\\w+",
+    "giacarta",
+    "jakarta"
+   ]
+  },
+  "THA": {
+   "base": 32,
+   "alias": [
+    "thailand\\w+",
+    "tailand\\w+",
+    "bangkok"
+   ]
+  },
+  "KHM": {
+   "base": 32,
+   "alias": [
+    "cambogi\\w+",
+    "phnom penh"
+   ]
+  },
+  "VNM": {
+   "base": 16,
+   "alias": [
+    "vietnam\\w*",
+    "hanoi"
+   ]
+  },
+  "MYS": {
+   "base": 12,
+   "alias": [
+    "malaysia",
+    "malesi\\w+",
+    "kuala lumpur"
+   ]
+  },
+  "BGD": {
+   "base": 40,
+   "alias": [
+    "banglades\\w+",
+    "dacca",
+    "dhaka"
+   ]
+  },
+  "LKA": {
+   "base": 26,
+   "alias": [
+    "sri lanka"
+   ]
+  },
+  "NPL": {
+   "base": 30,
+   "alias": [
+    "nepal\\w*",
+    "kathmandu"
+   ]
+  },
+  "KAZ": {
+   "base": 22,
+   "alias": [
+    "kazak\\w+",
+    "astana"
+   ]
+  },
+  "UZB": {
+   "base": 22,
+   "alias": [
+    "uzbek\\w+",
+    "tashkent"
+   ]
+  },
+  "KGZ": {
+   "base": 28,
+   "alias": [
+    "kirghiz\\w+",
+    "bishkek"
+   ]
+  },
+  "TJK": {
+   "base": 30,
+   "alias": [
+    "tagik\\w+",
+    "dushanbe"
+   ]
+  },
+  "MNG": {
+   "base": 10,
+   "alias": [
+    "mongoli\\w+"
+   ]
+  },
+  "ZAF": {
+   "base": 30,
+   "alias": [
+    "sudafric\\w+",
+    "sud africa",
+    "pretoria",
+    "ramaphosa"
+   ]
+  },
+  "KEN": {
+   "base": 36,
+   "alias": [
+    "kenya",
+    "kenian[oaie]",
+    "kenyot[aie]",
+    "nairobi"
+   ]
+  },
+  "UGA": {
+   "base": 36,
+   "alias": [
+    "ugand\\w+",
+    "kampala"
+   ]
+  },
+  "TZA": {
+   "base": 30,
+   "alias": [
+    "tanzani\\w+"
+   ]
+  },
+  "BDI": {
+   "base": 44,
+   "alias": [
+    "burundi\\w*"
+   ]
+  },
+  "SEN": {
+   "base": 22,
+   "alias": [
+    "senegal\\w*",
+    "dakar"
+   ]
+  },
+  "GIN": {
+   "base": 38,
+   "alias": [
+    "=Guinea(?![- ](bissau|equatoriale))",
+    "conakry"
+   ]
+  },
+  "MDG": {
+   "base": 34,
+   "alias": [
+    "madagascar",
+    "malgasc\\w+"
+   ]
+  },
+  "ZWE": {
+   "base": 32,
+   "alias": [
+    "zimbabwe"
+   ]
+  },
+  "AGO": {
+   "base": 26,
+   "alias": [
+    "angol\\w+",
+    "luanda"
+   ]
+  },
+  "MRT": {
+   "base": 30,
+   "alias": [
+    "mauritani\\w+"
+   ]
+  },
+  "GHA": {
+   "base": 16,
+   "alias": [
+    "ghana",
+    "ghanes[ei]"
+   ]
+  },
+  "CIV": {
+   "base": 28,
+   "alias": [
+    "costa d'avorio",
+    "ivorian[oaie]",
+    "abidjan"
+   ]
+  },
+  "DJI": {
+   "base": 28,
+   "alias": [
+    "gibuti"
+   ]
+  }
+ },
+ "luoghi": [
+  {
+   "nome": "Gaza",
+   "re": "gaza|=Striscia|rafah|khan yun[ie]s",
+   "lat": 31.45,
+   "lon": 34.4,
+   "iso": "PSE"
+  },
+  {
+   "nome": "Cisgiordania",
+   "re": "cisgiordania|jenin|ramallah|nablus|hebron",
+   "lat": 32.0,
+   "lon": 35.25,
+   "iso": "PSE"
+  },
+  {
+   "nome": "Gerusalemme",
+   "re": "gerusalemme",
+   "lat": 31.78,
+   "lon": 35.22,
+   "iso": "ISR"
+  },
+  {
+   "nome": "Tel Aviv",
+   "re": "tel aviv",
+   "lat": 32.08,
+   "lon": 34.78,
+   "iso": "ISR"
+  },
+  {
+   "nome": "Beirut",
+   "re": "beirut",
+   "lat": 33.89,
+   "lon": 35.5,
+   "iso": "LBN"
+  },
+  {
+   "nome": "Sud del Libano",
+   "re": "sud del libano|libano meridionale|=Unifil|=UNIFIL",
+   "lat": 33.27,
+   "lon": 35.35,
+   "iso": "LBN"
+  },
+  {
+   "nome": "Damasco",
+   "re": "damasco",
+   "lat": 33.51,
+   "lon": 36.29,
+   "iso": "SYR"
+  },
+  {
+   "nome": "Aleppo",
+   "re": "aleppo|idlib",
+   "lat": 36.2,
+   "lon": 37.15,
+   "iso": "SYR"
+  },
+  {
+   "nome": "Teheran",
+   "re": "teheran",
+   "lat": 35.7,
+   "lon": 51.4,
+   "iso": "IRN"
+  },
+  {
+   "nome": "Stretto di Hormuz",
+   "re": "hormuz",
+   "lat": 26.57,
+   "lon": 56.25,
+   "iso": "IRN"
+  },
+  {
+   "nome": "Bab el-Mandeb",
+   "re": "bab[- ]el[- ]mandeb",
+   "lat": 12.6,
+   "lon": 43.3,
+   "iso": "YEM"
+  },
+  {
+   "nome": "Mar Rosso",
+   "re": "mar rosso",
+   "lat": 18.5,
+   "lon": 39.5,
+   "iso": "YEM"
+  },
+  {
+   "nome": "Sanaa",
+   "re": "sana'?a",
+   "lat": 15.37,
+   "lon": 44.19,
+   "iso": "YEM"
+  },
+  {
+   "nome": "Hodeida",
+   "re": "hodeida",
+   "lat": 14.8,
+   "lon": 42.95,
+   "iso": "YEM"
+  },
+  {
+   "nome": "Canale di Suez",
+   "re": "suez",
+   "lat": 30.5,
+   "lon": 32.35,
+   "iso": "EGY"
+  },
+  {
+   "nome": "Kiev",
+   "re": "kiev|kyiv",
+   "lat": 50.45,
+   "lon": 30.52,
+   "iso": "UKR"
+  },
+  {
+   "nome": "Kharkiv",
+   "re": "kharkiv|kharkov",
+   "lat": 49.99,
+   "lon": 36.23,
+   "iso": "UKR"
+  },
+  {
+   "nome": "Odessa",
+   "re": "odessa",
+   "lat": 46.48,
+   "lon": 30.73,
+   "iso": "UKR"
+  },
+  {
+   "nome": "Zaporizhzhia",
+   "re": "zapori\\w+",
+   "lat": 47.84,
+   "lon": 35.14,
+   "iso": "UKR"
+  },
+  {
+   "nome": "Donbass",
+   "re": "donbass?|donetsk|pokrovsk|kramatorsk|lugansk|luhansk|bakhmut",
+   "lat": 48.2,
+   "lon": 37.6,
+   "iso": "UKR"
+  },
+  {
+   "nome": "Kherson",
+   "re": "kherson",
+   "lat": 46.64,
+   "lon": 32.62,
+   "iso": "UKR"
+  },
+  {
+   "nome": "Sumy",
+   "re": "sumy",
+   "lat": 50.91,
+   "lon": 34.8,
+   "iso": "UKR"
+  },
+  {
+   "nome": "Dnipro",
+   "re": "dnipro",
+   "lat": 48.46,
+   "lon": 35.05,
+   "iso": "UKR"
+  },
+  {
+   "nome": "Leopoli",
+   "re": "leopoli|lviv",
+   "lat": 49.84,
+   "lon": 24.03,
+   "iso": "UKR"
+  },
+  {
+   "nome": "Crimea",
+   "re": "crimea|sebastopoli",
+   "lat": 45.0,
+   "lon": 34.1,
+   "iso": "UKR"
+  },
+  {
+   "nome": "Mosca",
+   "re": "mosca|cremlino",
+   "lat": 55.75,
+   "lon": 37.62,
+   "iso": "RUS"
+  },
+  {
+   "nome": "Kursk",
+   "re": "kursk",
+   "lat": 51.73,
+   "lon": 36.19,
+   "iso": "RUS"
+  },
+  {
+   "nome": "Belgorod",
+   "re": "belgorod",
+   "lat": 50.6,
+   "lon": 36.59,
+   "iso": "RUS"
+  },
+  {
+   "nome": "San Pietroburgo",
+   "re": "san pietroburgo",
+   "lat": 59.94,
+   "lon": 30.31,
+   "iso": "RUS"
+  },
+  {
+   "nome": "Kaliningrad",
+   "re": "kaliningrad",
+   "lat": 54.71,
+   "lon": 20.51,
+   "iso": "RUS"
+  },
+  {
+   "nome": "Mar Baltico",
+   "re": "(mar )?baltico",
+   "lat": 57.5,
+   "lon": 19.5,
+   "iso": ""
+  },
+  {
+   "nome": "Mar Nero",
+   "re": "mar nero",
+   "lat": 43.4,
+   "lon": 34.0,
+   "iso": ""
+  },
+  {
+   "nome": "Transnistria",
+   "re": "transnistria",
+   "lat": 46.84,
+   "lon": 29.63,
+   "iso": "MDA"
+  },
+  {
+   "nome": "Taiwan",
+   "re": "taiwan|taipei",
+   "lat": 24.0,
+   "lon": 121.0,
+   "iso": "TWN"
+  },
+  {
+   "nome": "Mar Cinese Meridionale",
+   "re": "mar cinese meridionale",
+   "lat": 12.0,
+   "lon": 114.0,
+   "iso": ""
+  },
+  {
+   "nome": "Kashmir",
+   "re": "kashmir",
+   "lat": 34.1,
+   "lon": 75.5,
+   "iso": "IND"
+  },
+  {
+   "nome": "Kabul",
+   "re": "kabul",
+   "lat": 34.53,
+   "lon": 69.17,
+   "iso": "AFG"
+  },
+  {
+   "nome": "Khartoum",
+   "re": "khartoum",
+   "lat": 15.5,
+   "lon": 32.56,
+   "iso": "SDN"
+  },
+  {
+   "nome": "Darfur",
+   "re": "darfur|el[- ]fasher",
+   "lat": 13.63,
+   "lon": 25.35,
+   "iso": "SDN"
+  },
+  {
+   "nome": "Goma",
+   "re": "goma|kivu|=M23",
+   "lat": -1.68,
+   "lon": 29.22,
+   "iso": "COD"
+  },
+  {
+   "nome": "Tripoli",
+   "re": "tripoli",
+   "lat": 32.88,
+   "lon": 13.19,
+   "iso": "LBY"
+  },
+  {
+   "nome": "Bengasi",
+   "re": "bengasi",
+   "lat": 32.12,
+   "lon": 20.07,
+   "iso": "LBY"
+  },
+  {
+   "nome": "Mogadiscio",
+   "re": "mogadiscio",
+   "lat": 2.05,
+   "lon": 45.32,
+   "iso": "SOM"
+  },
+  {
+   "nome": "Port-au-Prince",
+   "re": "port[- ]au[- ]prince",
+   "lat": 18.54,
+   "lon": -72.34,
+   "iso": "HTI"
+  },
+  {
+   "nome": "Caracas",
+   "re": "caracas",
+   "lat": 10.49,
+   "lon": -66.88,
+   "iso": "VEN"
+  },
+  {
+   "nome": "Caraibi",
+   "re": "caraibi|mar dei caraibi",
+   "lat": 14.5,
+   "lon": -68.0,
+   "iso": ""
+  },
+  {
+   "nome": "Groenlandia",
+   "re": "groenlandia",
+   "lat": 66.0,
+   "lon": -45.0,
+   "iso": "GRL"
+  },
+  {
+   "nome": "Stretto di Malacca",
+   "re": "malacca",
+   "lat": 2.5,
+   "lon": 101.3,
+   "iso": ""
+  },
+  {
+   "nome": "Canale di Panama",
+   "re": "canale di panama",
+   "lat": 9.1,
+   "lon": -79.7,
+   "iso": "PAN"
+  },
+  {
+   "nome": "Bosforo",
+   "re": "bosforo|dardanelli",
+   "lat": 41.1,
+   "lon": 29.07,
+   "iso": "TUR"
+  },
+  {
+   "nome": "Pyongyang",
+   "re": "pyongyang",
+   "lat": 39.03,
+   "lon": 125.75,
+   "iso": "PRK"
+  },
+  {
+   "nome": "Doha",
+   "re": "doha",
+   "lat": 25.29,
+   "lon": 51.53,
+   "iso": "QAT"
+  }
+ ],
+ "stretti": [
+  {
+   "id": "hormuz",
+   "nome": "Stretto di Hormuz",
+   "lat": 26.57,
+   "lon": 56.25,
+   "zoom": 8,
+   "re": "hormuz|golfo persico|golfo di oman",
+   "scheda": "Collega il Golfo Persico all'oceano. Ci passa circa un quinto del petrolio consumato nel mondo e circa un quinto del gas liquefatto (soprattutto dal Qatar). Non ha vere rotte alternative: una chiusura farebbe salire subito i prezzi dell'energia.",
+   "merci": [
+    [
+     "Petrolio greggio",
+     55
+    ],
+    [
+     "Prodotti raffinati",
+     17
+    ],
+    [
+     "Gas liquefatto (GNL)",
+     20
+    ],
+    [
+     "Altro",
+     8
+    ]
+   ],
+   "paesi": [
+    "IRN"
+   ]
+  },
+  {
+   "id": "babelmandeb",
+   "nome": "Bab el-Mandeb",
+   "lat": 12.6,
+   "lon": 43.3,
+   "zoom": 8,
+   "re": "bab[- ]el[- ]mandeb|mar rosso|h[o]?uthi|golfo di aden",
+   "scheda": "Porta sud del Mar Rosso, tra Yemen e Gibuti: passaggio obbligato per le navi dirette a Suez. Prima degli attacchi Houthi ci transitava circa il 12% del commercio marittimo mondiale; molte compagnie oggi circumnavigano l'Africa.",
+   "merci": [
+    [
+     "Container",
+     40
+    ],
+    [
+     "Petrolio e raffinati",
+     30
+    ],
+    [
+     "Gas liquefatto",
+     8
+    ],
+    [
+     "Cereali e rinfuse",
+     15
+    ],
+    [
+     "Altro",
+     7
+    ]
+   ],
+   "paesi": [
+    "YEM"
+   ]
+  },
+  {
+   "id": "suez",
+   "nome": "Canale di Suez",
+   "lat": 30.5,
+   "lon": 32.35,
+   "zoom": 8,
+   "re": "suez",
+   "scheda": "La via più breve tra Asia ed Europa. In tempi normali vale circa il 12% del commercio mondiale e quasi un terzo del traffico container. Per l'Italia è vitale: i porti del Mediterraneo dipendono da questa rotta.",
+   "merci": [
+    [
+     "Container",
+     45
+    ],
+    [
+     "Petrolio e raffinati",
+     25
+    ],
+    [
+     "Rinfuse secche",
+     18
+    ],
+    [
+     "Gas liquefatto",
+     6
+    ],
+    [
+     "Altro",
+     6
+    ]
+   ],
+   "paesi": [
+    "EGY"
+   ]
+  },
+  {
+   "id": "bosforo",
+   "nome": "Bosforo e Dardanelli",
+   "lat": 41.1,
+   "lon": 29.07,
+   "zoom": 9,
+   "re": "bosforo|dardanelli|mar nero|corridoio del grano",
+   "scheda": "Unico accesso al Mar Nero, controllato dalla Turchia (Convenzione di Montreux). Da qui escono il grano ucraino e russo e circa il 3% del petrolio mondiale. In tempo di guerra Ankara può chiuderlo alle navi militari.",
+   "merci": [
+    [
+     "Cereali",
+     35
+    ],
+    [
+     "Petrolio e raffinati",
+     35
+    ],
+    [
+     "Acciaio e metalli",
+     12
+    ],
+    [
+     "Fertilizzanti",
+     8
+    ],
+    [
+     "Altro",
+     10
+    ]
+   ]
+  },
+  {
+   "id": "malacca",
+   "nome": "Stretto di Malacca",
+   "lat": 2.5,
+   "lon": 101.3,
+   "zoom": 7,
+   "re": "malacca|singapore",
+   "scheda": "La rotta più breve tra Oceano Indiano e Pacifico. Ci passa circa un quarto delle merci scambiate via mare e gran parte del petrolio diretto a Cina, Giappone e Corea del Sud: è il punto debole energetico di Pechino.",
+   "merci": [
+    [
+     "Petrolio e raffinati",
+     38
+    ],
+    [
+     "Container",
+     35
+    ],
+    [
+     "Gas liquefatto",
+     10
+    ],
+    [
+     "Rinfuse secche",
+     12
+    ],
+    [
+     "Altro",
+     5
+    ]
+   ]
+  },
+  {
+   "id": "taiwan",
+   "nome": "Stretto di Taiwan",
+   "lat": 24.3,
+   "lon": 119.5,
+   "zoom": 7,
+   "re": "stretto di taiwan|taiwan|taipei",
+   "scheda": "Separa Taiwan dalla Cina continentale. Ci transita quasi metà della flotta portacontainer mondiale e da Taiwan arriva la grande maggioranza dei microchip più avanzati. Un blocco avrebbe effetti immediati su tutta l'industria elettronica.",
+   "merci": [
+    [
+     "Container",
+     60
+    ],
+    [
+     "Semiconduttori ed elettronica",
+     15
+    ],
+    [
+     "Energia",
+     15
+    ],
+    [
+     "Altro",
+     10
+    ]
+   ],
+   "paesi": [
+    "TWN"
+   ]
+  },
+  {
+   "id": "panama",
+   "nome": "Canale di Panama",
+   "lat": 9.1,
+   "lon": -79.7,
+   "zoom": 9,
+   "re": "canale di panama|panama",
+   "scheda": "Collega Atlantico e Pacifico. Vale circa il 5% del commercio marittimo mondiale ed è essenziale per gli scambi tra la costa est degli Stati Uniti e l'Asia. Soffre la siccità ed è al centro di pressioni politiche statunitensi.",
+   "merci": [
+    [
+     "Container",
+     35
+    ],
+    [
+     "Cereali e soia",
+     20
+    ],
+    [
+     "Gas e GPL",
+     20
+    ],
+    [
+     "Petrolio e raffinati",
+     15
+    ],
+    [
+     "Altro",
+     10
+    ]
+   ],
+   "paesi": [
+    "PAN"
+   ]
+  },
+  {
+   "id": "gibilterra",
+   "nome": "Stretto di Gibilterra",
+   "lat": 35.95,
+   "lon": -5.6,
+   "zoom": 9,
+   "re": "gibilterra",
+   "scheda": "Porta occidentale del Mediterraneo: circa centomila navi l'anno. Con il Mar Rosso a rischio, è diventato l'ingresso principale per le merci asiatiche dirette ai porti italiani via Capo di Buona Speranza.",
+   "merci": [
+    [
+     "Container",
+     45
+    ],
+    [
+     "Petrolio e raffinati",
+     25
+    ],
+    [
+     "Gas liquefatto",
+     10
+    ],
+    [
+     "Rinfuse",
+     12
+    ],
+    [
+     "Altro",
+     8
+    ]
+   ]
+  },
+  {
+   "id": "danesi",
+   "nome": "Stretti danesi",
+   "lat": 55.6,
+   "lon": 11.5,
+   "zoom": 7,
+   "re": "baltico|flotta ombra|stretti danesi|cavi sottomarini",
+   "scheda": "Unica uscita dal Mar Baltico. Da qui passa gran parte del petrolio russo esportato via mare con la cosiddetta flotta ombra. Zona di sabotaggi a cavi e gasdotti sottomarini e di forte sorveglianza NATO.",
+   "merci": [
+    [
+     "Petrolio e raffinati",
+     50
+    ],
+    [
+     "Container",
+     20
+    ],
+    [
+     "Rinfuse",
+     18
+    ],
+    [
+     "Altro",
+     12
+    ]
+   ]
+  },
+  {
+   "id": "buonasperanza",
+   "nome": "Capo di Buona Speranza",
+   "lat": -34.8,
+   "lon": 19.0,
+   "zoom": 6,
+   "re": "buona speranza|circumnaviga",
+   "scheda": "Non è uno stretto ma la rotta alternativa a Suez: allunga il viaggio Asia-Europa di 10-14 giorni e fa salire noli e assicurazioni. Il traffico qui cresce ogni volta che il Mar Rosso diventa pericoloso.",
+   "merci": [
+    [
+     "Container",
+     45
+    ],
+    [
+     "Petrolio e raffinati",
+     30
+    ],
+    [
+     "Rinfuse",
+     18
+    ],
+    [
+     "Altro",
+     7
+    ]
+   ]
+  }
+ ],
+ "fonti": [
+  {
+   "nome": "ANSA",
+   "url": "https://www.ansa.it/sito/notizie/mondo/mondo_rss.xml"
+  },
+  {
+   "nome": "Rai News",
+   "url": "https://www.rainews.it/rss/esteri"
+  },
+  {
+   "nome": "Sky TG24",
+   "url": "https://tg24.sky.it/rss/tg24_mondo.xml"
+  },
+  {
+   "nome": "la Repubblica",
+   "url": "https://www.repubblica.it/rss/esteri/rss2.0.xml"
+  },
+  {
+   "nome": "AGI",
+   "url": "https://www.agi.it/estero/rss"
+  },
+  {
+   "nome": "Il Post",
+   "url": "https://www.ilpost.it/mondo/feed/"
+  },
+  {
+   "nome": "Euronews",
+   "url": "https://it.euronews.com/rss?level=theme&name=news"
+  },
+  {
+   "nome": "Analisi Difesa",
+   "url": "https://www.analisidifesa.it/feed/"
+  },
+  {
+   "nome": "Internazionale",
+   "url": "https://www.internazionale.it/sitemaps/rss.xml"
+  }
+ ],
+ "mercati": [
+  [
+   "LDO.MI",
+   "LEONARDO"
+  ],
+  [
+   "RHM.DE",
+   "RHEINMETALL"
+  ],
+  [
+   "LMT",
+   "LOCKHEED"
+  ],
+  [
+   "RTX",
+   "RTX"
+  ],
+  [
+   "NOC",
+   "NORTHROP"
+  ],
+  [
+   "GD",
+   "GEN.DYNAMICS"
+  ],
+  [
+   "BA.L",
+   "BAE"
+  ],
+  [
+   "BZ=F",
+   "BRENT"
+  ],
+  [
+   "TTF=F",
+   "GAS TTF"
+  ],
+  [
+   "GC=F",
+   "ORO"
+  ],
+  [
+   "ZW=F",
+   "GRANO"
+  ],
+  [
+   "EURUSD=X",
+   "EUR/USD"
+  ],
+  [
+   "FTSEMIB.MI",
+   "FTSE MIB"
+  ],
+  [
+   "^GSPC",
+   "S&P 500"
+  ]
+ ]
+}
