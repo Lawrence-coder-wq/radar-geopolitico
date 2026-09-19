@@ -1,6 +1,6 @@
 # GeoLaw — a geopolitical dashboard that runs on your own PC
 
-A local, free, Italian-language "situation room": a 3D globe with every country coloured by an instability index, live foreign news from Italian outlets, country briefs, maritime chokepoints, live military aircraft, natural events and the markets that react to all of it.
+A local, Italian-language "situation room": a 3D globe with every country coloured by an instability index, live foreign news from Italian outlets, country briefs, maritime chokepoints, live military aircraft, natural events and the markets that react to all of it.
 
 ![GeoLaw](docs/geolaw.png)
 
@@ -49,4 +49,4 @@ Cruscotto geopolitico in italiano che gira sul tuo PC: globo 3D con i paesi colo
 
 ## Author
 
-Made by **Lorenzo Paoletta**. MIT licensed.
+Made by **Lorenzo Paoletta**. Private project, all rights reserved: see [LICENSE](LICENSE).
