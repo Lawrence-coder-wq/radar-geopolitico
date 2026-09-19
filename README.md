@@ -90,7 +90,7 @@ Se lo provi e qualcosa non funziona, apri una issue: la guardo.
 
 ## Dati e crediti
 
-Notizie dai feed RSS di ANSA, Rai News, Sky TG24, la Repubblica, AGI, Il Post, Euronews, Analisi Difesa, Internazionale: si salvano solo titolo e link, l'articolo si legge sul sito della testata. Mercati: Yahoo Finance. Aerei: [adsb.lol](https://adsb.lol). Terremoti ed eventi naturali: USGS e NASA EONET. Navi: MarineTraffic. Globo: [globe.gl](https://globe.gl), confini da [world-atlas](https://github.com/topojson/world-atlas), bandiere da flagcdn.com. Elenco paesi da mledoze/countries (licenza ODbL).
+Notizie dai feed RSS di ANSA, Rai News, Sky TG24, la Repubblica, AGI, Il Post, Euronews, Analisi Difesa, Internazionale: si salvano titolo, il sommario breve del feed e il link; l'articolo si legge sul sito della testata. Mercati: Yahoo Finance. Aerei: [adsb.lol](https://adsb.lol). Terremoti ed eventi naturali: USGS e NASA EONET. Navi: MarineTraffic. Globo: [globe.gl](https://globe.gl), confini da [world-atlas](https://github.com/topojson/world-atlas), bandiere da flagcdn.com. Elenco paesi da mledoze/countries (licenza ODbL).
 
 ## In English
 
